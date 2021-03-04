@@ -1,3 +1,4 @@
+data type 설계 / typescript 
 # 프로그래밍 언어 분류 기준
 ## 1.객체 지향 프로그래밍
 ### 1-1. Top-down 방식
