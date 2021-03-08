@@ -124,11 +124,57 @@ printf("hello); //hello 출력하기
 ## 6-2. 이름 잘 짓기  
 전체적인 코드의 흐름 안에서 충분히 구체적이고 간결한 이름 짓기  
 ## 6-3. 스타일 가이드 활용  
-변수 - 보통 띄어쓰기 불가  
-````python  
-math score
-math_score #snake 표기법
-Math 
+언어의 스타일 가이드에 맞추어 코드를 작성해야 각 잡히고 가독성 좋아짐.  
+````python
+# 규칙1:함수 호출, 함수 파라미터 등에서 불필요한 공백을 넣지 않는다.  
+
+yes:
+spam(ham[1], {egg: 2})
+bar = (0,1)
+spam(1)
+
+no:
+spam( ham[ 1 ], { eggs: 2 }  )
+bar = (0, )
+spam (1)
+
+# 규칙2:,다음에는 하나의 공백을 넣어줘야 한다.
+
+yes:
+function(a, b, c)
+
+no:
+function(a,b,c)
+
+# 규칙3:변수에 값을 저장할 때 사용하는 등호(=) 앞뒤로 하나의 공백을 넣는다.
+
+yes:
+i = i + i
+
+no:
+i=i+i
+
+# 규칙4:함수, 변수는 소문자로 쓰고, 단어 간은 언더바(_)를 사용하여 연결한다.
+
+yes:
+total_nambers
+
+no:
+TotalNumbers
+````
+
+  
+````python 
+#변수 - 보통 띄어쓰기 불가   
+# math score
+# math_score # snake 표기법
+# MathScore # pascal 표기법  
+# mathScore # camel 표기법
+````
+
+  
+
+
 
 
 
