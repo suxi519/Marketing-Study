@@ -216,8 +216,21 @@ TotalNumbers
 
 테스트 프로세스  
 버그 / 잘못 실행된 동작 혹은 유도하지 않은 에러  
-버그 관리 툴(issue tracking tool) / Jira, 
+버그 관리 툴(issue tracking tool) / Jira, asana, Trello  
 이슈(issue) /어떤 상황에서 버그가 나타나는지, 얼마가 시급한 버그인지 등의 정보를 기입  
+
+프로젝트 매니저가 관리  
+이슈의 상태 /assign(담당자 지정)  
+Open(이슈가 생김)->In-progress(개발자가 개선 작업 진행)->Resolved(개발자 작업 완료)->Closed(버그해결)->Reopen(추가 문제 발생시 처음으로)  
+
+버전관리    
+git/ 버전 관리를 위한 SW  
+github/ git을 이용해 코드를 저장하는 온라인 저장 공간  
+![image](https://user-images.githubusercontent.com/55868306/110419822-64ab2e80-80dd-11eb-850b-de183b9763dc.png)
+brach 
+![image](https://user-images.githubusercontent.com/55868306/110419923-96bc9080-80dd-11eb-86f0-51786c303aa7.png)
+![image](https://user-images.githubusercontent.com/55868306/110420002-bc499a00-80dd-11eb-9144-bc3872aa370e.png)
+
 
 
 
