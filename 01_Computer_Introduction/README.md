@@ -238,6 +238,16 @@ IJ, 이클립스, VS
 메신저인 Slack, Skype, Jandi  
 디자인 협업 툴인 Sketch  
 
+프로그래밍은 선택의 연속  
+코딩의 트랜드를 파악하고 흐름을 읽어내보자.  
+활발한 기술/ redmonk  
+프로그래밍 커뮤니티/stackoverflow, quora  
+인정받는 기술  
+stackshare, medium, Reddit, Quora,국내 블로그   
+![image](https://user-images.githubusercontent.com/55868306/110421172-527ebf80-80e0-11eb-8295-6615b7f514dc.png)
+유망한 기술 / gartner  
+기술을 선택할 때 고려해야할 점  
+산업적인 이유로 추세가 바뀔 수 있다는 것.  
 
 
 
