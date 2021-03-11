@@ -263,7 +263,13 @@ stackshare, medium, Reddit, Quora,국내 블로그
 장점- 개발속도가 빠름, 프로그램 용량이 더 작음.    
 ![image](https://user-images.githubusercontent.com/55868306/110726312-867eef80-825c-11eb-8681-c7851898eb4a.png)
 단점 - 컴파일러 방식보다 실행 속도가 떨어진다, 코드 유출의 위험성 비교적 높음.  
-   
+운영체제(Operating system)  
+![image](https://user-images.githubusercontent.com/55868306/110727552-d8c11000-825e-11eb-9b06-6d4e54ce2a22.png)
+APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램  
+
+
+
+
   
 
 
