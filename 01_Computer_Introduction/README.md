@@ -206,29 +206,30 @@ TotalNumbers
 * 각 단계를 완료하고 다음 단계로 넘어가는 방식  
 * 장점 -  이해와 관리가 쉬움  
 * 단점 - 서비스가 복잡할 경우 각 단계를 한 번에 완벽하게 끝내기 힘들 수 있음, 수정 사항이 많이 생길 경우가 높고 바로 코드로 반영하기 힘듦.  
-     
 ### 7-2-2. 애자일(Agile)
 * 재빨리 결과물을 만들어 미리 확인하고 수정하며 진행  
 * 장점 - 중간중간 구현된 서비스를 사용하면서 발전시켜 기능 변경이 쉬움.  
 ![image](https://user-images.githubusercontent.com/55868306/110335035-c7151800-8066-11eb-925b-c8b0bea0192e.png)
 
 ## 7-3. 테스트 프로세스  
-### 7-3-1. 버그
+### 7-3-1. 버그  
 잘못 실행된 동작 혹은 유도하지 않은 에러  
-### 7-3-2. 버그 관리 툴(issue tracking tool)
+### 7-3-2. 버그 관리 툴(issue tracking tool)  
 Jira, asana, Trello  
-### 7-3-3. 이슈(issue)
+### 7-3-3. 이슈(issue)  
 어떤 상황에서 버그가 나타나는지, 얼마가 시급한 버그인지 등의 정보를 기입  
-
-프로젝트 매니저가 관리  
-이슈의 상태 /assign(담당자 지정)  
+### 7-3-4. 이슈 관리과정  
 Open(이슈가 생김)->In-progress(개발자가 개선 작업 진행)->Resolved(개발자 작업 완료)->Closed(버그해결)->Reopen(추가 문제 발생시 처음으로)  
 
-버전관리  
-git/ 버전 관리를 위한 SW   
-github/ git을 이용해 코드를 저장하는 온라인 저장 공간  
+## 7-4. 버전관리    
+### 7-4-1. git  
+버전 관리를 위한 SW     
+### 7-4-2. github    
+git을 이용해 코드를 저장하는 온라인 저장 공간  
+### 7-4-3. git 활용가능 기능
+* 코드를 수정하고, 수정사항만 기입하면 손쉽게 여럿이 코딩 작업 가능    
 ![image](https://user-images.githubusercontent.com/55868306/110419822-64ab2e80-80dd-11eb-850b-de183b9763dc.png)
-brach 
+*  
 ![image](https://user-images.githubusercontent.com/55868306/110419923-96bc9080-80dd-11eb-86f0-51786c303aa7.png)
 ![image](https://user-images.githubusercontent.com/55868306/110420002-bc499a00-80dd-11eb-9144-bc3872aa370e.png)
 
