@@ -88,7 +88,7 @@ data type 설계 / typescript
 * 통계 소프트웨어 개발과 데이터 분석 및 시각화에 널리사용.  
 * 특히 통계나 빅테이터 분석에 필요한 데이터 전처리, 분석, 수학적인 계산과 그래프를 그리는 기능에 특화.  
 
-##5-2.SQL  
+## 5-2.SQL  
 * 데이터베이스를 관리하기 위한 목적의 프로그래밍 언어  
 * 데이터베이스란? 데이터를 모아둔 공간을 의미. 프로그래머들은 SQL을 이용해 데이터베이스 설계와 운영 및 관리.    
 * 요즘은 마케터나 데이터 분석가들도 서비스의 데이터(매출, 고객정보 등)를 분석.    
@@ -97,13 +97,13 @@ UPDATE countury
 SET population = population + 1
 WHERE name = 'USA'
 ````  
-##5-3.HTML/CSS    
+## 5-3.HTML/CSS    
 * 웹 페이지를 만들 때 사용.  
 * HTML은 주로 웹 페이지의 구조와 레이아웃을 담당, CSS는 웹 페이지의 시각적인 표현 담당.      
 *  JavaScript를 함께 사용해서, 웹 페이지가 사용자와 상호 작용할 수 있게 만들기도 함.  
 ![image](https://user-images.githubusercontent.com/55868306/110273015-fac45380-800e-11eb-9bc8-7561e9dbfbfc.png)    
 
-##5-4.MATLAB, Csound, Scratch  
+## 5-4.MATLAB, Csound, Scratch  
 * MATLAB - 공학 시뮬레이션용 프로그래밍 언어.  
 * Csound - 소리와 음악 합성에 사용되는 프로그래밍 언어.  
 * Scratch - 블록을 조립하여 쉽게 자기 자신의 이야기나 게임, 애니메이션을 만들 수 있는 교육용 프로그래밍 언어.    
@@ -266,10 +266,12 @@ stackshare, medium, Reddit, Quora,국내 블로그
 운영체제(Operating system)  
 ![image](https://user-images.githubusercontent.com/55868306/110727552-d8c11000-825e-11eb-9b06-6d4e54ce2a22.png)
 APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램  
-
-
-
-
+OS의 역할  
+1. 입출력 관리
+![image](https://user-images.githubusercontent.com/55868306/110728100-c693a180-825f-11eb-94a4-4968b8c6806c.png)
+2. 저장과 불러오기  
+![image](https://user-images.githubusercontent.com/55868306/110728337-3570fa80-8260-11eb-9abc-a4a2e2144b2b.png)
+![image](https://user-images.githubusercontent.com/55868306/110728437-6cdfa700-8260-11eb-8a26-80dbcd84915e.png)
   
 
 
