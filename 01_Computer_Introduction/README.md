@@ -189,6 +189,8 @@ TotalNumbers
   
 ##참고 : Best Practice  
 
+![image](https://user-images.githubusercontent.com/55868306/110333652-2d00a000-8065-11eb-9e7d-02ca52caac7b.png)
+
 # 7. 소프트웨어 공학  
 * 소프트웨어로 제품 또는 서비스를 만드는 방법에 대한 학문  
 
@@ -200,7 +202,6 @@ TotalNumbers
 유지/보수 - 출시된 서비스를 고치는 단계    
 
 ## 7-2. 프로세스 관리    
-
 ### 7-2-1. 폭포수 방식(Waterfall)  
 * 각 단계를 완료하고 다음 단계로 넘어가는 방식  
 * 장점 -  이해와 관리가 쉬움  
@@ -209,20 +210,15 @@ TotalNumbers
 ### 7-2-2. 애자일(Agile)
 * 재빨리 결과물을 만들어 미리 확인하고 수정하며 진행  
 * 장점 - 중간중간 구현된 서비스를 사용하면서 발전시켜 기능 변경이 쉬움.  
-
 ![image](https://user-images.githubusercontent.com/55868306/110335035-c7151800-8066-11eb-925b-c8b0bea0192e.png)
 
-# 7. 컴퓨터 사이언스의 기본  
-객체 지향 프로그래밍, 알고리즘, 자료구조  
-![image](https://user-images.githubusercontent.com/55868306/110333652-2d00a000-8065-11eb-9e7d-02ca52caac7b.png)
-
-
-
-
-테스트 프로세스  
-버그 / 잘못 실행된 동작 혹은 유도하지 않은 에러  
-버그 관리 툴(issue tracking tool) / Jira, asana, Trello  
-이슈(issue) /어떤 상황에서 버그가 나타나는지, 얼마가 시급한 버그인지 등의 정보를 기입  
+## 7-3. 테스트 프로세스  
+### 7-3-1. 버그
+잘못 실행된 동작 혹은 유도하지 않은 에러  
+### 7-3-2. 버그 관리 툴(issue tracking tool)
+Jira, asana, Trello  
+### 7-3-3. 이슈(issue)
+어떤 상황에서 버그가 나타나는지, 얼마가 시급한 버그인지 등의 정보를 기입  
 
 프로젝트 매니저가 관리  
 이슈의 상태 /assign(담당자 지정)  
