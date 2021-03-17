@@ -238,22 +238,24 @@ git을 이용해 코드를 저장하는 온라인 저장 공간
 ### 7-5-1 IDE  
 IJ, 이클립스, VS  
 ### 7-5-2. 프로젝트 관리 툴  
-Jira, Trello, Asana, Confluence      
+Jira, Trello, Asana, Confluence        
 ### 7-5-3. 메신저툴  
 Slack, Skype, Jandi  
 ### 7-5-3. 디자인 협업 툴   
 Sketch  
 
-#프로그래밍은 선택의 연속  
-코딩의 트랜드를 파악하고 흐름을 읽어내보자.  
-활발한 기술/ redmonk  
-프로그래밍 커뮤니티/stackoverflow, quora  
-인정받는 기술  
-stackshare, medium, Reddit, Quora,국내 블로그   
+## 7-6. 프로그래밍은 선택의 연속   
+기술의 트렌드틑 파악해야함.    
+산업적인 이유 등 다양한 이유로 추세가 바뀔 수 있기 때문에.   
+### 7-6-1. 활발한 기술 찾는 사이트    
+redmonk  
+### 7-6-2. 프로그래밍 커뮤니티  
+stackoverflow, quora    
+### 7-6-3. 인정받는 기술 찾는 사이트      
+stackshare, medium, Reddit, Quora, 국내 블로그 등     
 ![image](https://user-images.githubusercontent.com/55868306/110421172-527ebf80-80e0-11eb-8295-6615b7f514dc.png)
-유망한 기술 / gartner  
-기술을 선택할 때 고려해야할 점  
-산업적인 이유로 추세가 바뀔 수 있다는 것.  
+### 7-6-4. 유망한 기술 찾는 사이트  
+gartner    
 
 프로그램의 종류  
 다양한 애플리케이션  
