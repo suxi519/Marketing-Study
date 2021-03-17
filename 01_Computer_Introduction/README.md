@@ -235,16 +235,16 @@ git을 이용해 코드를 저장하는 온라인 저장 공간
 ![image](https://user-images.githubusercontent.com/55868306/110420002-bc499a00-80dd-11eb-9144-bc3872aa370e.png)
 
 ## 7-5. 개발자 필수 프로그램     
-## 7-5-1 IDE  
+### 7-5-1 IDE  
 IJ, 이클립스, VS  
-## 7-5-2. 프로젝트 관리 툴  
+### 7-5-2. 프로젝트 관리 툴  
 Jira, Trello, Asana, Confluence      
-## 7-5-3. 메신저툴  
+### 7-5-3. 메신저툴  
 Slack, Skype, Jandi  
-## 7-5-3. 디자인 협업 툴   
+### 7-5-3. 디자인 협업 툴   
 Sketch  
 
-프로그래밍은 선택의 연속  
+#프로그래밍은 선택의 연속  
 코딩의 트랜드를 파악하고 흐름을 읽어내보자.  
 활발한 기술/ redmonk  
 프로그래밍 커뮤니티/stackoverflow, quora  
