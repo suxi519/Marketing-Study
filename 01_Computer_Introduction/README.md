@@ -267,20 +267,20 @@ gartner
 * 컴파일러(compiler)  
 한 언어의 코드를 다른 언어의 코드로 바꿔주는 것  
 ![image](https://user-images.githubusercontent.com/55868306/110725424-eeccd180-825a-11eb-9d81-4e60efc3354c.png)
-* 단점- 빠르게 개발할 수 없다.(프로그램 자체를 한 번에 번역한 후 완성된 컴퓨터 언어로 바꿔주기 때문에)      
+* 단점  
+빠르게 개발할 수 없다.(프로그램 자체를 한 번에 번역한 후 완성된 컴퓨터 언어로 바꿔주기 때문에)        
 
 * 인터프리터  
 코드 한 줄씩 즉흥적으로 실행해주는 프로그램 (코드 작성 후 컴파일 과정 없이 즉시 실행)  
+![image](https://user-images.githubusercontent.com/55868306/110726312-867eef80-825c-11eb-8681-c7851898eb4a.png)
 * 장점  
 개발속도가 빠름, 프로그램 용량이 더 작음.  
-![image](https://user-images.githubusercontent.com/55868306/110726312-867eef80-825c-11eb-8681-c7851898eb4a.png)
 * 단점  
 컴파일러 방식보다 실행 속도가 떨어진다, 코드 유출의 위험성 비교적 높음.  
 
 ### 7-7-3. 운영체제(Operating system)  
-
 APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램  
-OS의 역할  
+* OS의 역할  
 1. 입출력 관리
 ![image](https://user-images.githubusercontent.com/55868306/110728100-c693a180-825f-11eb-94a4-4968b8c6806c.png)
 2. 저장과 불러오기  
