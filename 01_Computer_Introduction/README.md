@@ -259,6 +259,7 @@ gartner
 
 ## 7-7. 프로그램의 종류  
 ![image](https://user-images.githubusercontent.com/55868306/110727552-d8c11000-825e-11eb-9b06-6d4e54ce2a22.png)
+
 ### 7-7-1. 애플리케이션 (Application)  
 소비자(end user)가 직접 사용하는 프로그램   
 * 플랫폼(Platform)  
@@ -286,8 +287,31 @@ gartner
 브라우저 호환성 문제  
 ![image](https://user-images.githubusercontent.com/55868306/111756454-8ecece80-88dd-11eb-84f8-5962aa65ca65.png)
 
+2-1. 웹 애플리케이션  
+웹을 활용해서 애플리케이션을 동작하는 것.  
+* 장점  
+업데이트 정보 실시간 반영 가능, 주소로 App 접속 가능.  
 
+2-2. 네이티브 애플리케이션  
+기기의 OS에서 바로 실행할 수 있는 애플리케이션  
+![image](https://user-images.githubusercontent.com/55868306/111757000-30eeb680-88de-11eb-8fd3-92104788dd14.png)
+* 장점  
+OS와 기기에 내장된 여러 기능 활용 가능, 인터넷 연결 없이 실행 가능.  
+* 단점  
+설치와 배포의 과정을 반드시 거쳐야 함.  
 
+2-3. 웹을 활용하는 여러 방법  
+* Single-page App  
+새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성함.  
+예시 - 페이스북, 지메일, 구글맵 등  
+
+* Hybrid Web Application  
+겉으로는 앱이지만, 특정공간을 웹을 기반 기능을 사용.  
+예시 - 앱내 광고  
+
+* Progressive Web Application(PWA)  
+웹 App와 네이티브 App의 장점만 합쳐 놓은 App  
+![image](https://user-images.githubusercontent.com/55868306/111760309-e5d6a280-88e1-11eb-859e-dc05ef03137a.png)
 
 ### 7-7-2. 애플리케이션을 만들어주는 SW  
 프로그래밍 코드를 실제 동작하는 프로그램으로 변환    
