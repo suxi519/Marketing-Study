@@ -259,8 +259,35 @@ gartner
 
 ## 7-7. 프로그램의 종류  
 ![image](https://user-images.githubusercontent.com/55868306/110727552-d8c11000-825e-11eb-9b06-6d4e54ce2a22.png)
-### 7-7-1. 애플리케이션  
-소비자(end user)가 직접 사용하는 프로그램  
+### 7-7-1. 애플리케이션 (Application)  
+소비자(end user)가 직접 사용하는 프로그램   
+* 플랫폼(Platform)  
+프로그램이 실행되는 하드웨어, 소프트웨어 환경  
+![image](https://user-images.githubusercontent.com/55868306/111753247-fbe06500-88d9-11eb-9256-1d78c5ad0843.png)
+
+* 플랫폼 의존성(Platform Dependency)  
+개발한 프로그램이 플랫폼에 맞지 않으면 실행이 안됨.  
+
+* 단점 - 플랫폼 파편화  
+핸드폰 기종에 맞는 프로그램과 개발환경을 각각 구축해야하는 문제.  
+![image](https://user-images.githubusercontent.com/55868306/111753918-be300c00-88da-11eb-8ac9-25279c2172e7.png)
+
+* 해결방안  
+크로스 플랫폼  
+여러 OS, CPU 등에서 동일하게 실행할 수 있는 환경을 만듦.
+1. 가상머신 - JVM (Java Virtual Machine)  
+![image](https://user-images.githubusercontent.com/55868306/111755262-44991d80-88dc-11eb-9ac8-8e29a9b5a2dd.png)
+
+2. 웹 - web  
+![image](https://user-images.githubusercontent.com/55868306/111755888-f2a4c780-88dc-11eb-9607-5c86de4e426a.png)
+* 장점 
+반응형 웹 디자인, ISO(국제 표준화 기구), JavaScript Frameworks가 많이 쓰임.  
+* 단점  
+브라우저 호환성 문제  
+![image](https://user-images.githubusercontent.com/55868306/111756454-8ecece80-88dd-11eb-84f8-5962aa65ca65.png)
+
+
+
 
 ### 7-7-2. 애플리케이션을 만들어주는 SW  
 프로그래밍 코드를 실제 동작하는 프로그램으로 변환    
@@ -280,7 +307,8 @@ gartner
 
 ### 7-7-3. 운영체제(Operating system)  
 APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램  
-* OS의 역할  
+
+**OS의 역할** 
 1. 입출력 관리  
 ![image](https://user-images.githubusercontent.com/55868306/111727459-45b35600-88ae-11eb-84d1-615f88f18c9a.png)
 2. 저장과 불러오기    
@@ -294,9 +322,33 @@ APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램
 * ROM  
 데이터 수정 가능 vs 데이터 수정 불가능  
 ![image](https://user-images.githubusercontent.com/55868306/110728337-3570fa80-8260-11eb-9abc-a4a2e2144b2b.png)
-3.멀티태스킹  
+3. 멀티태스킹  
 애플리케이션 동시 재생 시 충돌을 방지하고 효과적으로 실행되도록 함.  
 ![image](https://user-images.githubusercontent.com/55868306/111750834-11a05b00-88d7-11eb-9f50-2769d0c61815.png)
+
+**운영체제의 종류**  
+1.데스크톱/랩톱  
+Windows, macOS, Linux  
+2. 모바일  
+Android, iOS 등  
+3. 서버  
+Ubuntu, Unix, CentOS 등  
+4. 임베디드  
+실시간 운영체제(Real-time operating system,RTOS)  
+* 정해진 시간안에 안정적으로 끝내는 기능  
+**각 운영체제들의 특징**  
+1. Windows, Android  
+* 장점  
+사용자 설정을 쉽게 바꿀 수 있음.  
+*단점  
+바이러스에 취약함.  
+2. macOS, iOS  
+* 장점  
+보안이 철저함.  
+*단점  
+환경설정 선택지가 제한적.   
+
+
 
 
 
