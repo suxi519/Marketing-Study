@@ -187,7 +187,7 @@ TotalNumbers
 * 큰 틀이 정해져 있고 세부 내용만 바뀌는 프로그램에 적합.  
 * 스트럿츠, 스프링, 앵귤러 JS, 장고 등  
   
-##참고 : Best Practice  
+##참고 : Best Practice / test  
 
 ![image](https://user-images.githubusercontent.com/55868306/110333652-2d00a000-8065-11eb-9e7d-02ca52caac7b.png)
 
@@ -281,12 +281,23 @@ gartner
 ### 7-7-3. 운영체제(Operating system)  
 APP 뒤에서 도움을 주는 눈에 보이지 않는 프로그램  
 * OS의 역할  
-1. 입출력 관리
-![image](https://user-images.githubusercontent.com/55868306/110728100-c693a180-825f-11eb-94a4-4968b8c6806c.png)
-2. 저장과 불러오기  
+1. 입출력 관리  
+![image](https://user-images.githubusercontent.com/55868306/111727459-45b35600-88ae-11eb-84d1-615f88f18c9a.png)
+2. 저장과 불러오기    
+* 휘발성 정보  
+컴퓨터가 켜져 있는 동안만 저장되는 정보  
+* 비휘발성 정보  
+컴퓨터가 꺼져도 저장되는 정보  
+![image](https://user-images.githubusercontent.com/55868306/110728437-6cdfa700-8260-11eb-8a26-80dbcd84915e.png)  
+* 읽고 쓰는 속도  
+빠르고 작은 용량 vs 느리고 많은 용량   
+* ROM  
+데이터 수정 가능 vs 데이터 수정 불가능  
 ![image](https://user-images.githubusercontent.com/55868306/110728337-3570fa80-8260-11eb-9abc-a4a2e2144b2b.png)
-![image](https://user-images.githubusercontent.com/55868306/110728437-6cdfa700-8260-11eb-8a26-80dbcd84915e.png)
-  
+3.멀티태스킹  
+애플리케이션 동시 재생 시 충돌을 방지하고 효과적으로 실행되도록 함.  
+![image](https://user-images.githubusercontent.com/55868306/111750834-11a05b00-88d7-11eb-9f50-2769d0c61815.png)
+
 
 
 
