@@ -14,9 +14,11 @@ print(3*4)
 
 * 소수(floating point)
 2.0
+
 3-2.문자열(string)
 키보드로 쓸 수 있는 문자들을 표현하는 자료형  
 "2" or '2'
+
 3-3.불린(Boolean)
 true or false
 
