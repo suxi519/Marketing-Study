@@ -48,12 +48,6 @@ print_sum(7, 3, 1)
 * return
 """
 
-1. 자료형
-1-1. 숫자형
-
-python
-# 덧셈
-print
 
 
 
