@@ -1,8 +1,8 @@
 """
-1.프린트(print)
+1. 프린트(print)
 print(3*4)
 
-2.코멘트(comment)
+2. 코멘트(comment)
 " 코멘트 중요하다! "
 
 3.자료형(data type)
