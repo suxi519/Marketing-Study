@@ -1,5 +1,5 @@
 """
-# 1-1. 숫자형
+# 3-1. 숫자형
 # 덧셈
 print(4 + 7)
 print(4.0 + 7.0)
@@ -34,8 +34,12 @@ print(7.0 // 2.0)
 print(round(3.141592, 5))
 """
 
-
-
+# 3-2. 문자열
+# '코드잇', "코드잇"
+print("i'm student")
+print("I\'m \"excited\" to learn Python!")
+print('hello' * 3)
+print('30' + '5')
 
 
 
