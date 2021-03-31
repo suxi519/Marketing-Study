@@ -14,7 +14,7 @@
 * 키보드로 쓸 수 있는 문자들을 표현하는 자료형  
 * "2" or '2'  
 
-형 변환(Type Conversion)   
+#### 3-3. 형 변환(Type Conversion)   
 값을 한 자료형에서 다른 자료형으로 바꾸는 것       
 
 정수 7 -> 소수 7.0    
@@ -22,11 +22,11 @@
 ````python
 print(int(3.8))  
 ````
+#### 3-4. 문자열 formating
 
 
 
-
-#### 3-3. 불린(Boolean)  
+#### 3-5. 불린(Boolean)  
 * true or false  
 
 ### 4.추상화(abstraction)  
