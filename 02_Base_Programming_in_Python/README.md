@@ -22,8 +22,8 @@
 ````python
 print(int(3.8))  
 ````
-#### 3-4. 문자열 formating
-
+#### 3-4. 문자열 format    
+.format()  
 
 
 #### 3-5. 불린(Boolean)  
