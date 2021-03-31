@@ -85,6 +85,15 @@ num_2 = 2
 num_3 = 2
 print(f'{num_1} 나누기 {num_2}은 {num_3}입니다.')
 
+#print(5710.8 / 5)
+h = 1
+wage = 5
+exchange_rate = 1142.16
+print('{}시간에 {}달러 벌었습니다.'.format(1, wage))
+print(f'{h * 5}시간에 {wage * 5}달러 벌었습니다.')
+print(f'{h}시간에 {exchange_rate * 5}달러 벌었습니다.')
+print(f'{h * 5}시간에 {exchange_rate * 5 * 5}달러 벌었습니다.')
+
 
 
 
