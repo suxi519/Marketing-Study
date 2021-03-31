@@ -49,6 +49,9 @@ hello()
 ```
 
 #### 4-3. 파라미터(parameter)  
+* 함수의 정의에서 전달받은 인수를 함수 내부로 전달하기 위해 사용하는 변수.  
+* 인수(argument)란 함수가 호출될 때 함수로 값을 전달해주는 값.     
+
 ```python
 def hello(name):
     print("hello")
