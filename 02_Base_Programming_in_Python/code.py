@@ -48,12 +48,15 @@ print(float("1.1") + float("2.5"))
 print(str(2) + str(5))
 age = 7
 print("제 나이는 " + str(age) + "살입니다.")
-
 print(10 / (10 % 6))
-
 print(4.0 + 7)
 print(2 ** 3.0)
 print(7.0 - 3)
+# 오늘은 2019년 10월 29일 입니다.
+year = 2019
+month = 10
+day = 29
+print("오늘은 " + str(year) + "년 " + str(10) + "월 " + str(29) + "일 " + "입니다.")
 
 
 
