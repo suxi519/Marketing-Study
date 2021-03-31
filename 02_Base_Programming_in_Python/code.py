@@ -66,5 +66,3 @@ print(date_string.format(year, month, day + 1))
 
 
 
-
-
