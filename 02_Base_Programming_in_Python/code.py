@@ -1,3 +1,7 @@
+# 0. type 함수
+print(type(3))
+print(type(3.0))
+print(type("3"))
 # 3-1. 숫자형
 # 주의 (숫자형끼리 계산 가능)
 print(10 / (10 % 6))
@@ -109,3 +113,4 @@ print(not not False)
 print(7 == 7 or (4 < 3 and 12 > 10))
 x = 3
 print(x > 4 or not (x < 2 or x == 3))
+
