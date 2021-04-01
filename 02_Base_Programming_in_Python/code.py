@@ -94,6 +94,18 @@ print(f'{h * 5}시간에 {wage * 5}달러 벌었습니다.')
 print(f'{h}시간에 {exchange_rate * 5}달러 벌었습니다.')
 print(f'{h * 5}시간에 {exchange_rate * 5 * 5}달러 벌었습니다.')
 
-
-
-
+# 3-5. 불린(Boolean)
+print(True)
+print(False)
+print(2 > 1)
+print(2 < 1)
+print(3 >= 2)
+print(3 <= 3)
+print(2 == 2)
+print(2 != 2)
+print(2 > 1 and "hello" == "Hello")
+print(not not True)
+print(not not False)
+print(7 == 7 or (4 < 3 and 12 > 10))
+x = 3
+print(x > 4 or not (x < 2 or x == 3))
