@@ -131,3 +131,16 @@ print(7 == 7 or (4 < 3 and 12 > 10))
 x: int = 3
 print(x > 4 or not (x < 2 or x == 3))
 
+# 4-1. 지정연산자
+x = 7
+x = x + 1
+print(x)
+
+# 4-2. 함수의 실행 순서
+def hello():
+    print("hello")
+    print("welcome to codeit!")
+
+print("함수 호출 전")
+hello()# 함수 호출 
+print("함수 호출 후")
