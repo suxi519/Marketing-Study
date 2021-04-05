@@ -4,8 +4,11 @@ print(type(3.0))
 print(type("3"))
 print(type("True"))
 print(type(True))
+
+
 def hello():
     print("hello suxi")
+
 
 print(type(hello))
 print(type(print))
@@ -41,10 +44,10 @@ print(2 / 3)
 # 나머지
 print(7.0 % 3.0)
 
-#거듭제곱
+# 거듭제곱
 print(2.0 ** 3.0)
 
-#사칙연산
+# 사칙연산
 print(2 * 3 + 2)
 print(2 * (3 + 2))
 
@@ -85,7 +88,7 @@ print("저는 {}, {}, {}를 좋아합니다!".format("사과", "배", "딸기"))
 print("저는 {2}, {1}, {0}를 좋아합니다!".format("사과", "배", "딸기"))
 num_1 = 1
 num_2 = 3
-print("{0} 나누기 {1}은 {2:.3f}입니다.".format(num_1, num_2, num_1*num_2))
+print("{0} 나누기 {1}은 {2:.3f}입니다.".format(num_1, num_2, num_1 * num_2))
 
 name = "한수시"
 age = 10
@@ -103,7 +106,7 @@ num_2 = 2
 num_3 = 2
 print(f'{num_1} 나누기 {num_2}은 {num_3}입니다.')
 
-#print(5710.8 / 5)
+# print(5710.8 / 5)
 h = 1
 wage = 5
 exchange_rate = 1142.16
@@ -125,6 +128,6 @@ print(2 > 1 and "hello" == "Hello")
 print(not not True)
 print(not not False)
 print(7 == 7 or (4 < 3 and 12 > 10))
-x = 3
+x: int = 3
 print(x > 4 or not (x < 2 or x == 3))
 
