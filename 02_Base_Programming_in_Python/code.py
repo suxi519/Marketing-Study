@@ -167,7 +167,7 @@ def print_odd(x: int):
 """
 
 # return 과 print 의 차이
-
+# print 는 호출될 때마다 계산되고, 리턴은 값만 호출된다.
 
 def print_square():
     print(x * x)
