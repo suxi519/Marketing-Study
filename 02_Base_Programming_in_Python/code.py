@@ -136,11 +136,30 @@ x = 7
 x = x + 1
 print(x)
 
+
 # 4-2. 함수의 실행 순서
 def hello():
     print("hello")
-    print("welcome to codeit!")
+    print("welcome to code it!")
+
 
 print("함수 호출 전")
-hello()# 함수 호출 
+hello()  # 함수 호출
 print("함수 호출 후")
+
+
+# 4-5. return 문
+def square(x):
+    print("함수 시작")
+    return x * x
+    # print("함수 끝") # dead code
+
+
+print(square(3))
+print("hello world!")
+
+
+def print_odd(x: int):
+    if x % 2 == 0:
+        return x
+    print(x)
