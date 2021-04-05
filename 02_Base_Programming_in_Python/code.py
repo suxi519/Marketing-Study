@@ -159,7 +159,28 @@ print(square(3))
 print("hello world!")
 
 
+""" 
 def print_odd(x: int):
     if x % 2 == 0:
         return x
     print(x)
+"""
+
+# return 과 print 의 차이
+
+
+def print_square():
+    print(x * x)
+
+
+def return_square():
+    return x * x
+
+
+# def print_sqr(y, n):
+#     return y ** n
+
+print_square()
+answer = return_square()
+print(answer)
+print(3)
