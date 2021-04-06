@@ -148,7 +148,19 @@ hello()  # 함수 호출
 print("함수 호출 후")
 
 
-# 4-5. return 문
+# 4-5. 옵셔널 파라미터(optional parameter)
+def myself(name, age, nationality="한국"):
+    print("내 이름은 {}" .format(name))
+    print("나이는 {}살" .format(age))
+    print("국적은 {}" .format(nationality))
+
+
+myself("코드잇", 1, "미국")
+myself("코드잇", 1)
+
+
+
+# 4-6. return 문
 def square(x):
     print("함수 시작")
     return x * x
