@@ -220,3 +220,12 @@ x = x % 7
 x %= 7
 '''
 
+'''
+def hello(name):
+    print(f"안녕하세요. {name}입니다.")
+    return "만나서 반갑습니다."
+
+
+print(hello("영훈"))
+'''
+
