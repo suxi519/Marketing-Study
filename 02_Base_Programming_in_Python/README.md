@@ -79,9 +79,10 @@ def print_sum(a, b, c):
 print_sum(7, 3, 1)
 
 ```
+#### 4-5. 옵셔널 파라미터(optional parameter)  
 
-#### 4-5. return  
-##### 4-5-1. return 문의 역할  
+#### 4-6. return  
+##### 4-6-1. return 문의 역할  
 * 값 돌려주기  
 * 함수 즉시 종료하기  
 ##### 4-5-2. return 과 print 의 차이  
