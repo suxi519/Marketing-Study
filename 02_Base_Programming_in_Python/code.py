@@ -275,13 +275,24 @@ x %= 7
 #
 # my_function()
 # print(x)
+#
+#
+# def square(x):
+#     return x * x
+#
+#
+# print(square(3))
+
+# 4-9. 상수(constant)
+PI = 3.14
 
 
-def square(x):
-    return x * x
+def calculate_area(r):
+    return PI * r * r
 
 
-print(square(3))
+radius = 4
+print("반지름이 {}면, 넓이는 {}".format(radius, calculate_area(radius)))
 
 
 
