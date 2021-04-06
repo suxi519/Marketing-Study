@@ -159,7 +159,6 @@ myself("코드잇", 1, "미국")
 myself("코드잇", 1)
 
 
-
 # 4-6. return 문
 def square(x):
     print("함수 시작")
@@ -181,6 +180,7 @@ def print_odd(x: int):
 # return 과 print 의 차이
 # print 는 호출될 때마다 계산되고, 리턴은 값만 호출된다.
 
+
 def print_square():
     print(x * x)
 
@@ -190,9 +190,33 @@ def return_square():
 
 
 # def print_sqr(y, n):
-#     return y ** n
+# return y ** n
 
 print_square()
 answer = return_square()
 print(answer)
 print(3)
+
+# 4-7. Syntactic Sugar
+''' 
+# +=
+x = x + 1
+x += 1
+
+# *=
+x = x * 2
+x *= 2
+
+# -=
+x = x - 3
+x -= 3
+
+# /=
+x = x / 2
+x /= 2
+
+# %=
+x = x % 7
+x %= 7
+'''
+
