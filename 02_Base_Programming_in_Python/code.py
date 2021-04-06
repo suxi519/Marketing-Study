@@ -1,3 +1,5 @@
+
+"""
 # 0. type 함수
 print(type(3))
 print(type(3.0))
@@ -19,6 +21,9 @@ print(type("True"))
 print(type(10 <= 7))
 print(type(2 ** 3.0))
 print(type(2 * 3 == 6))
+"""
+
+"""
 # 3-1. 숫자형
 # 주의 (숫자형끼리 계산 가능)
 print(10 / (10 % 6))
@@ -58,14 +63,18 @@ print(7.0 // 2.0)
 
 # 반올림 (round)
 print(round(3.141592, 5))
+"""
 
+"""
 # 3-2. 문자열
 # '코드잇', "코드잇"
 print("i'm student")
 print("I\'m \"excited\" to learn Python!")
 print('hello' * 3)
 print('30' + '5')
+"""
 
+"""
 # 3-3. 형 변환(Type Conversion)
 print(int(3.8))
 print(float(3))
@@ -74,7 +83,9 @@ print(float("1.1") + float("2.5"))
 print(str(2) + str(5))
 age = 7
 print("제 나이는 " + str(age) + "살입니다.")
+"""
 
+"""
 # 3-4. format method
 # 오늘은 2019년 10월 29일 입니다.
 year = 2019
@@ -114,7 +125,9 @@ print('{}시간에 {}달러 벌었습니다.'.format(1, wage))
 print(f'{h * 5}시간에 {wage * 5}달러 벌었습니다.')
 print(f'{h}시간에 {exchange_rate * 5}달러 벌었습니다.')
 print(f'{h * 5}시간에 {exchange_rate * 5 * 5}달러 벌었습니다.')
+"""
 
+"""
 # 3-5. 불린(Boolean)
 print(True)
 print(False)
@@ -130,13 +143,16 @@ print(not not False)
 print(7 == 7 or (4 < 3 and 12 > 10))
 x: int = 3
 print(x > 4 or not (x < 2 or x == 3))
+"""
 
+"""
 # 4-1. 지정연산자
 x = 7
 x = x + 1
 print(x)
+"""
 
-
+"""
 # 4-2. 함수의 실행 순서
 def hello():
     print("hello")
@@ -146,8 +162,9 @@ def hello():
 print("함수 호출 전")
 hello()  # 함수 호출
 print("함수 호출 후")
+"""
 
-
+"""
 # 4-5. 옵셔널 파라미터(optional parameter)
 def myself(name, age, nationality="한국"):
     print("내 이름은 {}" .format(name))
@@ -157,8 +174,9 @@ def myself(name, age, nationality="한국"):
 
 myself("코드잇", 1, "미국")
 myself("코드잇", 1)
+"""
 
-
+"""
 # 4-6. return 문
 def square(x):
     print("함수 시작")
@@ -169,21 +187,19 @@ def square(x):
 print(square(3))
 print("hello world!")
 
-'''
+
 def hello(name):
     print(f"안녕하세요. {name}입니다.")
     return "만나서 반갑습니다."
 
 
 print(hello("영훈"))
-'''
 
-""" 
+
 def print_odd(x: int):
     if x % 2 == 0:
         return x
     print(x)
-"""
 
 # return 과 print 의 차이
 # print 는 호출될 때마다 계산되고, 리턴은 값만 호출된다.
@@ -204,7 +220,9 @@ print_square()
 answer = return_square()
 print(answer)
 print(3)
+"""
 
+"""
 # 4-7. Syntactic Sugar
 ''' 
 # +=
@@ -227,6 +245,44 @@ x /= 2
 x = x % 7
 x %= 7
 '''
+"""
+
+# 4-8. scope(범위)
+# def my_function():
+#     x = 3 # 로컬변수
+#     print(x)
+#
+#
+# my_function()
+# print(x)
+
+# x = 2 # 전역변수
+
+# def my_function():
+#     print(x)
+#
+#
+# my_function()
+# print(x)
+
+# x = 2
+#
+#
+# def my_function():
+#     x = 3
+#     print(x)
+#
+#
+# my_function()
+# print(x)
+
+
+def square(x):
+    return x * x
+
+
+print(square(3))
+
 
 
 
