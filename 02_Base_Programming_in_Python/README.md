@@ -124,6 +124,7 @@ SOME_CONSTANT = 3.14
 
 ##### 5-0-2. 의미 있는 이름  
 ```python
-SOME_CONSTANT = 3.14
+radius = 2
+
 ```
    
