@@ -294,8 +294,6 @@ x %= 7
 # radius = 4
 # print("반지름이 {}면, 넓이는 {}".format(radius, calculate_area(radius)))
 
+
 # 5-0. 스타일(style)
 
-
-
-print(some_function_name())
