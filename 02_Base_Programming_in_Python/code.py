@@ -322,8 +322,8 @@ x %= 7
 #     i += 1
 
 # 5-2. if 문
-# temperture = 12
-# if temperture <= 10:
+# temperature = 12
+# if temperature <= 10:
 #     print("자켓을 입는다")
 # else:
-#     print("자켓을 입지 않는다.")
+# print("자켓을 입지 않는다.")
