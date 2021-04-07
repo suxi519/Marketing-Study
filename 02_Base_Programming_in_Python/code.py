@@ -295,5 +295,23 @@ x %= 7
 # print("반지름이 {}면, 넓이는 {}".format(radius, calculate_area(radius)))
 
 
-# 5-0. 스타일(style)
+# 실습
+# def is_evenly_divisible(number):
+#     if number % 2 == 0:
+#         return True
+#
+#     else:
+#         return False
+#
+#
+# # 테스트
+# print(is_evenly_divisible(3))
+# print(is_evenly_divisible(7))
+# print(is_evenly_divisible(8))
+# print(is_evenly_divisible(218))
+# print(is_evenly_divisible(317))
+
+# 5-1. while 반복문
+# while 조건 부분:  # 불린 값으로 계산되는 식 ex) x < 3, name == '유재석'
+#    수행 부분  # 반복적으로 실행하고 싶은 명령 ex) print("나는 예쁘다"), i = i + 1
 
