@@ -125,6 +125,39 @@ SOME_CONSTANT = 3.14
 ##### 5-0-2. 의미 있는 이름  
 ```python
 radius = 2
+pi = 3.14
+print(pi * radius * radius)
 
+
+def say_hello():
+    print("hello, world!")
+
+
+print(say_hello())
 ```
-   
+
+##### 5-0-3. 들여쓰기    
+* 들여쓰기는 무조건 스페이스 4번  
+
+```python
+def say_hello():
+    print("Hi")
+```
+
+##### 5-0-4. 함수 정의  
+* 함수 정의 위아래로 빈 줄이 두 개씩 있어야 함. 하지만 파일의 첫 줄이 함수 정의인 경우 해당 함수 위에는 빈줄 없어도 됨.  
+```python
+def a():
+    print('a')
+
+
+def b():
+    print('b')
+
+
+def c():
+    print('c')
+```
+
+##### 5-0-4. 함수 정의  
+
