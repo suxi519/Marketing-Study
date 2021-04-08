@@ -1,4 +1,3 @@
-#
 # """
 # # 0. type 함수
 # print(type(3))
@@ -340,17 +339,17 @@
 # print(total)
 
 # if, while 문 연습 2
-N = 120
-i = 1
-total = i.count
-while i <= N:
-    if N % i == 0:
-        print(i)
-        print(total)
-    i = i + 1
-
-print()
-print(f"{N}의 약수는 총 {total}개입니다.")
+# N = 120
+# i = 1
+# count = 0
+# while i <= N:
+#     if N % i == 0:
+#         print(i)
+#         count += 1
+#     i = i + 1
+#
+# print()
+# print(f"{N}의 약수는 총 {count}개입니다.")
 
 
 
