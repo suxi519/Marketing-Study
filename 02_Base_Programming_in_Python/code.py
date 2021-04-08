@@ -353,7 +353,7 @@
 
 # 상수
 INTEREST_RATE = 0.12
-APT_PRICE_2016 = 1100000000
+APT_PRICE_2016 = 111100000000
 # 변수
 year = 1988
 money = 50000000
@@ -365,8 +365,7 @@ while year < 2016:
 if money > APT_PRICE_2016:
     print(f"{money - APT_PRICE_2016}원 차이로 동일 아저씨 말씀이 맞습니다.")
 else:
-    money < APT_PRICE_2016
-    print(f"{APT_PRICE_2016 - money}원 차이로 동일 아저씨 말씀이 맞습니다.")
+    print(f"{APT_PRICE_2016 - money}원 차이로 미란 아줌마 말씀이 맞습니다.")
 
 
 
