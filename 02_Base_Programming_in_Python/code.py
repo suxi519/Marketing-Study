@@ -351,6 +351,7 @@
 # print()
 # print(f"{N}의 약수는 총 {count}개입니다.")
 
+# if, while 문 연습 3
 # 상수
 # INTEREST_RATE = 0.12
 # APT_PRICE_2016 = 111100000000
@@ -367,7 +368,7 @@
 # else:
 #     print(f"{APT_PRICE_2016 - money}원 차이로 미란 아줌마 말씀이 맞습니다.")
 
-
+# if, while 문 연습 4(피보나치의 수열)
 # previous = 0
 # current = 1
 # i = 1
@@ -378,6 +379,16 @@
 #     previous = current
 #     current = current + temp
 #     i += 1
+
+# if, while 문 연습 5
+# i = 1
+# while i <= 9:
+#     j = 1
+#     while j <= 9:
+#         print(f"{i} * {j} = {i * j}")
+#         j += 1
+#     i += 1
+
 # break문 사용
 # i = 100
 # while True:
