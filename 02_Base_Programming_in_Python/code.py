@@ -387,15 +387,15 @@
 #
 # print(i)
 
-# continue문 사용
-i = 0
-
-while i < 15:
-    i += 1
-
-    if i % 2 == 1:
-        continue
-    print(i)
+# continue 문 사용
+# i = 0
+#
+# while i < 15:
+#     i += 1
+#
+#     if i % 2 == 1:
+#         continue
+#     print(i)
 
 
 
