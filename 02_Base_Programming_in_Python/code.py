@@ -378,7 +378,7 @@
 #     previous = current
 #     current = current + temp
 #     i += 1
-# continue문 사용
+# break문 사용
 # i = 100
 # while True:
 #     if i % 23 == 0:
@@ -387,7 +387,15 @@
 #
 # print(i)
 
+# continue문 사용
+i = 0
 
+while i < 15:
+    i += 1
+
+    if i % 2 == 1:
+        continue
+    print(i)
 
 
 
