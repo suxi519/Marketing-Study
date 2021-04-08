@@ -352,20 +352,42 @@
 # print(f"{N}의 약수는 총 {count}개입니다.")
 
 # 상수
-INTEREST_RATE = 0.12
-APT_PRICE_2016 = 111100000000
-# 변수
-year = 1988
-money = 50000000
+# INTEREST_RATE = 0.12
+# APT_PRICE_2016 = 111100000000
+# # 변수
+# year = 1988
+# money = 50000000
+#
+# while year < 2016:
+#     money = money * (1 + INTEREST_RATE)
+#     year += 1
+#
+# if money > APT_PRICE_2016:
+#     print(f"{money - APT_PRICE_2016}원 차이로 동일 아저씨 말씀이 맞습니다.")
+# else:
+#     print(f"{APT_PRICE_2016 - money}원 차이로 미란 아줌마 말씀이 맞습니다.")
 
-while year < 2016:
-    money = money * (1 + INTEREST_RATE)
-    year += 1
 
-if money > APT_PRICE_2016:
-    print(f"{money - APT_PRICE_2016}원 차이로 동일 아저씨 말씀이 맞습니다.")
-else:
-    print(f"{APT_PRICE_2016 - money}원 차이로 미란 아줌마 말씀이 맞습니다.")
+# previous = 0
+# current = 1
+# i = 1
+#
+# while i <= 50:
+#     print(current)
+#     temp = previous
+#     previous = current
+#     current = current + temp
+#     i += 1
+# continue문 사용
+# i = 100
+# while True:
+#     if i % 23 == 0:
+#         break
+#     i = i + 1
+#
+# print(i)
+
+
 
 
 
