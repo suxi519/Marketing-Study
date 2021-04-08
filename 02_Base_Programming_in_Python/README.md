@@ -226,3 +226,15 @@ while True:
 
 print(i)
 ````
+##### 5-3-1. continue문
+* 현재 진행되고 있는 수행 부분을 중단하고 바로 조건 부분을 확인하고 싶으면 continue문 씀.  
+```python
+i = 0
+
+while i < 15:
+    i += 1
+    
+    if i % 2 == 1:
+        continue
+    print(i)
+```
