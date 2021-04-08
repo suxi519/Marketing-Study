@@ -327,3 +327,13 @@ x %= 7
 #     print("자켓을 입는다")
 # else:
 # print("자켓을 입지 않는다.")
+
+i = 1
+total = 0
+
+while i < 1000:
+    if i % 2 == 0 or i % 3 == 0:
+        total += i
+    i = i + 1
+
+print(total)
