@@ -238,3 +238,6 @@ while i < 15:
         continue
     print(i)
 ```
+
+### 6. 리스트(list)  
+ 
