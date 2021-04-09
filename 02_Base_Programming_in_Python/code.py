@@ -408,6 +408,10 @@
 #         continue
 #     print(i)
 
+names = ["윤수", "혜린", "소희"]
+print(names[0])
 
+numbers = [2, 3, 4, 5]
+print(numbers[0] + numbers[1])
 
 
