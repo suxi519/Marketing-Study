@@ -247,7 +247,7 @@ names = ["윤수", "혜린", "소희"]
 ```
 * 각각의 변수를 "요소"라고 말함.  
 * '인덱스(index)' - 인덱스에서 요소의 위치  
-* '인덱싱(indexing)' - 인덱스를 통해 요소를 받아오는 것.  
+* '인덱싱(indexing)' - 인덱스를 통해 요소를 받아오는 것.    
 ```python
 names = ["윤수", "혜린", "소희"]  
 print(names[0])
@@ -255,3 +255,15 @@ print(names[0])
 numbers = [2, 3, 4, 5]
 print(numbers[0] + numbers[1])
 ``` 
+* 리스트 슬라이싱(list slicing)   
+```python
+print(numbers[2:])
+print(numbers[:3])
+```
+* 리스트의 인자를 바꿀 수 있음.  
+```python
+numbers = [2, 3, 4, 5]```python
+numbers[0] = numbers[0] + numbers[1]
+print(numbers)
+``` 
+
