@@ -416,7 +416,11 @@
 
 numbers = []
 # print(len(numbers))
-numbers.append(5)
-numbers.append(8)
+# numbers.append(5)
+# numbers.append(8)  # 항상 끝에 추가
+# print(numbers)
+# print(len(numbers))
+# del numbers[1]
+# print(numbers)
+numbers.insert(1, 100)  # 원하는 자리에
 print(numbers)
-print(len(numbers))
