@@ -285,9 +285,18 @@ numbers.insert(1, 100)  # 원하는 자리에
 del numbers[1]
 ```
 #### 6-2. 리스트 정렬  
+* "sorted" 는 기존 리스트 건드리지 않고, 정렬된 새 리스트 리턴  
 ```python
 num = [1, 2, 3, 9, 7, 5, 5, 4]
 new_list = sorted(num)
-# new_list = sorted(num, reverse=True)
+num.sort()
+# new_list = sorted(num, reverse=True)  # 반전
 # print(new_list)
+```
+* "sort" 는 아무것도 리턴하지 않고, 기존 리스트를 정렬  
+```python
+num = [1, 2, 3, 9, 7, 5, 5, 4]
+num.sort()
+# num.sort(reverse=True)  # 반전
+# print(num)
 ```
