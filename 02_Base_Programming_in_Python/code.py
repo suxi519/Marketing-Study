@@ -428,11 +428,14 @@
 # new_list = sorted(num, reverse=True)
 # print(new_list)
 
-# 리스트 실습
-greetings = ["안녕", "니하오", "곤니찌와", "올라", "싸와디캅", "헬로", "봉주르"]
+# 리스트 실습 1
+# greetings = ["안녕", "니하오", "곤니찌와", "올라", "싸와디캅", "헬로", "봉주르"]
+#
+# i = 0
+# while i < len(greetings):
+#     print(greetings[i])
+#     i += 1
 
-i = 0
-while i < len(greetings):
-    print(greetings[i])
-    i += 1
+# 리스트 실습 2
+
 
