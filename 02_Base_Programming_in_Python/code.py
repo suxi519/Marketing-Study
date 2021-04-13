@@ -422,6 +422,8 @@ numbers = []
 # print(len(numbers))
 # del numbers[1]
 # print(numbers)
-numbers.insert(1, 100)  # 원하는 자리에
-print(numbers)
-
+# numbers.insert(1, 100)  # 원하는 자리에
+# print(numbers)
+num = [1, 2, 3, 9, 7, 5, 5, 4]
+new_list = sorted(num, reverse=True)
+print(new_list)
