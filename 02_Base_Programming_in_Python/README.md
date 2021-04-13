@@ -267,7 +267,20 @@ numbers[0] = numbers[0] + numbers[1]
 print(numbers)
 ``` 
 #### 6-1. 리스트 함수  
+* 리스트 안에 인자 갯수 파악.    
 ```python
 numbers = []
 len(numbers)
 ``` 
+* 리스트 끝에 인자 추가.  
+```python
+numbers.append(8)  # 항상 끝에 추가
+```
+* 리스트 원하는 위치에 인자 추가.  
+```python
+numbers.insert(1, 100)  # 원하는 자리에
+```
+* 리스트 인자 제거
+```python
+del numbers[1]
+```
