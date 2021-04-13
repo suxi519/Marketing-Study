@@ -280,7 +280,14 @@ numbers.append(8)  # 항상 끝에 추가
 ```python
 numbers.insert(1, 100)  # 원하는 자리에
 ```
-* 리스트 인자 제거
+* 리스트 인자 제거  
 ```python
 del numbers[1]
+```
+#### 6-2. 리스트 정렬  
+```python
+num = [1, 2, 3, 9, 7, 5, 5, 4]
+new_list = sorted(num)
+# new_list = sorted(num, reverse=True)
+# print(new_list)
 ```
