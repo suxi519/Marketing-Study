@@ -266,4 +266,8 @@ numbers = [2, 3, 4, 5]```python
 numbers[0] = numbers[0] + numbers[1]
 print(numbers)
 ``` 
-
+#### 6-1. 리스트 함수  
+```python
+numbers = []
+len(numbers)
+``` 
