@@ -424,3 +424,4 @@ numbers = []
 # print(numbers)
 numbers.insert(1, 100)  # 원하는 자리에
 print(numbers)
+
