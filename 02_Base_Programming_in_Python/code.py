@@ -414,7 +414,7 @@
 # numbers = [2, 3, 4, 5]
 # print(numbers[0] + numbers[1])
 
-numbers = []
+# numbers = []
 # print(len(numbers))
 # numbers.append(5)
 # numbers.append(8)  # 항상 끝에 추가
@@ -424,6 +424,15 @@ numbers = []
 # print(numbers)
 # numbers.insert(1, 100)  # 원하는 자리에
 # print(numbers)
-num = [1, 2, 3, 9, 7, 5, 5, 4]
-new_list = sorted(num, reverse=True)
-print(new_list)
+# num = [1, 2, 3, 9, 7, 5, 5, 4]
+# new_list = sorted(num, reverse=True)
+# print(new_list)
+
+# 리스트 실습
+greetings = ["안녕", "니하오", "곤니찌와", "올라", "싸와디캅", "헬로", "봉주르"]
+
+i = 0
+while i < len(greetings):
+    print(greetings[i])
+    i += 1
+
