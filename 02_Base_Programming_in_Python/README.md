@@ -302,7 +302,16 @@ num.sort()
 ```
 
 #### 6-2. 리스트 팁  
-* 리스트에서 값을 존재 확인하기  
+* 리스트에서 값을 존재 확인하기
+* 확인 기능이 파이썬 자체에 내장되어 있음
+```python
+# 값이 안에 있는지 확인 "in"
+print(7 in primes)
+print(12 in primes)
+# 값이 안에 없는지 확인 "not in"
+print(7 not in primes)
+print(12 not in primes)
+```  
 ```python
 def in_list(some_list, value):
     i = 0
