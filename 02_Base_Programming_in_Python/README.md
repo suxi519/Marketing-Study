@@ -289,7 +289,7 @@ del numbers[1]
 ```python
 num = [1, 2, 3, 9, 7, 5, 5, 4]
 new_list = sorted(num)
-num.sort()
+num.sorted()
 # new_list = sorted(num, reverse=True)  # 반전
 # print(new_list)
 ```
