@@ -300,3 +300,21 @@ num.sort()
 # num.sort(reverse=True)  # 반전
 # print(num)
 ```
+
+#### 6-2. 리스트 팁  
+* 리스트에서 값을 존재 확인하기  
+```python
+def in_list(some_list, value):
+    i = 0
+    while i < len(some_list):
+        if some_list[i] == value:
+            return True
+        i += 1
+
+    return False
+
+primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
+print(in_list(primes, 7))
+print(in_list(primes, 7))
+```
+
