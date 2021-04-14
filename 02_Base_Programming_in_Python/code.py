@@ -522,15 +522,20 @@
 
 # print(new_num)
 
-def in_list(some_list, value):
-    i = 0
-    while i < len(some_list):
-        if some_list[i] == value:
-            return True
-        i += 1
-
-    return False
-
-primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
-print(in_list(primes, 7))
-print(in_list(primes, 12))
+# def in_list(some_list, value):
+#     i = 0
+#     while i < len(some_list):
+#         if some_list[i] == value:
+#             return True
+#         i += 1
+#
+#     return False
+#
+#
+# primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
+# print(in_list(primes, 7))
+# print(in_list(primes, 12))
+# print(7 in primes)
+# print(12 in primes)
+# print(7 not in primes)
+# print(12 not in primes)
