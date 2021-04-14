@@ -502,14 +502,17 @@ numbers.append(14)
 numbers.sort()
 print(numbers)
 
-# numbers에서 홀수 제거
-# 코드를 입력하세요
-# print(numbers)
+i = 0
+while i < len(numbers):
+    # 홀수면 제거
+    if numbers[i] % 2 == 1:
+        del numbers[i]
+    else:
+        i += 1
+print(numbers)
 
-# numbers의 인덱스 0 자리에 20이라는 값 삽입
-# 코드를 입력하세요
-# print(numbers)
+numbers.insert(0, 20)
+print(numbers)
 
-# numbers를 정렬해서 출력
-# 코드를 입력하세요
-# print(numbers)
+new_num = sorted(numbers)
+print(new_num)
