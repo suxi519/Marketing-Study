@@ -540,14 +540,22 @@
 # print(7 not in primes)
 # print(12 not in primes)
 
-# 세 번의 시험을 보는 수업
-grades = [[62, 75, 77], [78, 81, 86], [85, 91, 89]]
+# # 세 번의 시험을 보는 수업
+# grades = [[62, 75, 77], [78, 81, 86], [85, 91, 89]]
+#
+# # 첫 번째 학생의 성적
+# print(grades[0])
+#
+# # 첫 번째 학생의 첫 번째 시험 성적
+# print(grades[0][0])
+#
+# # 첫 번째 시험의 평균
 
-# 첫 번째 학생의 성적
-print(grades[0])
+# print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
 
-# 첫 번째 학생의 첫 번째 시험 성적
-print(grades[0][0])
+a = [1, 2, 1, 3, 4, 5, 1]
+a.remove(1)
 
-# 첫 번째 시험의 평균
-print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
+
+print(a)
+print(a[0])
