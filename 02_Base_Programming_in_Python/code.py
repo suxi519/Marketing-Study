@@ -488,35 +488,49 @@
 
 # 리스트 연습 4
 # 빈 리스트 만들기
-numbers = []
-print(numbers)
+# numbers = []
+# print(numbers)
+#
+# numbers.append(1)
+# numbers.append(7)
+# numbers.append(3)
+# numbers.append(6)
+# numbers.append(5)
+# numbers.append(2)
+# numbers.append(13)
+# numbers.append(14)
+# numbers.sort()
+# print(numbers)
+#
+# i = 0
+# while i < len(numbers):
+#     # 홀수면 제거
+#     if numbers[i] % 2 == 1:
+#         del numbers[i]
+#     else:
+#         i += 1
+#
+# del numbers[:2]
+# numbers.insert(0, 6)
+# numbers.insert(1, 2)
+# print(numbers)
+#
+# numbers.insert(0, 20)
+# print(numbers)
+#
+# new_num = sorted(numbers)
 
-numbers.append(1)
-numbers.append(7)
-numbers.append(3)
-numbers.append(6)
-numbers.append(5)
-numbers.append(2)
-numbers.append(13)
-numbers.append(14)
-numbers.sort()
-print(numbers)
+# print(new_num)
 
-i = 0
-while i < len(numbers):
-    # 홀수면 제거
-    if numbers[i] % 2 == 1:
-        del numbers[i]
-    else:
+def in_list(some_list, value):
+    i = 0
+    while i < len(some_list):
+        if some_list[i] == value:
+            return True
         i += 1
 
-del numbers[:2]
-numbers.insert(0, 6)
-numbers.insert(1, 2)
-print(numbers)
+    return False
 
-numbers.insert(0, 20)
-print(numbers)
-
-new_num = sorted(numbers)
-print(new_num)
+primes = [2, 3, 5, 7, 11, 13, 17, 19, 23]
+print(in_list(primes, 7))
+print(in_list(primes, 12))
