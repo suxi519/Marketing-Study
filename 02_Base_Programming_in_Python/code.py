@@ -489,7 +489,7 @@
 # 리스트 연습 4
 # 빈 리스트 만들기
 numbers = []
-# print(numbers)
+print(numbers)
 
 numbers.append(1)
 numbers.append(7)
@@ -509,6 +509,10 @@ while i < len(numbers):
         del numbers[i]
     else:
         i += 1
+
+del numbers[:2]
+numbers.insert(0, 6)
+numbers.insert(1, 2)
 print(numbers)
 
 numbers.insert(0, 20)
