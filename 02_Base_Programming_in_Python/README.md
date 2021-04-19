@@ -288,10 +288,13 @@ numbers.insert(1, 100)  # 원하는 자리에
 a = [1, 2, 1, 3, 4, 5, 1]
 a.remove(1)
 ```
-
+* pop(), del()  
+* 지우고자 하는 리스트의 인덱스를 받아 지우는 방식  
+* pop은 지워진 인덱스의 값을 반환, del은 안 반환  
+* 특정 인덱스를 삭제한 다음, 리스트 재조정  
 
 ```python
-del numbers[1]
+a = [1, 2, 1, 3, 4, 5, 1]
 ```
 #### 6-2. 리스트 정렬  
 * "sorted" 는 기존 리스트 건드리지 않고, 정렬된 새 리스트 리턴  
@@ -321,6 +324,7 @@ print(12 in primes)
 print(7 not in primes)
 print(12 not in primes)
 ```  
+
 ```python
 def in_list(some_list, value):
     i = 0
@@ -347,7 +351,7 @@ print(grades[0])
 # 첫 번째 학생의 첫 번째 시험 성적
 print(grades[0][0])
 
-# 첫 번째 시험의 평균
+# 첫 번째 시험의 평균*______*
 print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
 ```
 ##### 6-2-3. 리스트 안의 리스트 (Nested List)  
