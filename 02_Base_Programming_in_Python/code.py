@@ -553,9 +553,28 @@
 
 # print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
 
-a = [1, 2, 1, 3, 4, 5, 1]
-a.remove(1)
+# list remove
+# a = [1, 2, 1, 3, 4, 5, 1]
+# a.remove(1)
+#
+#
+# print(a)
+# print(a[0])
 
+# a = [1, 2, 1, 3, 4, 5, 1]
+# removed = a.pop(1)
+#
+# print(a)
+# print(removed)
+# print(a[0])
+
+# a = [1, 2, 3, 4, 5, 6]
+# del a[1]
+#
+# print(a)
+# print(a[1])
+
+a = [1, 2, 3, 4, 5, 6]
+del a[:3]
 
 print(a)
-print(a[0])
