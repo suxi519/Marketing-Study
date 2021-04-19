@@ -327,6 +327,7 @@ num.sorted()
 ```python
 num = [1, 2, 3, 9, 7, 5, 5, 4]
 num.sort()
+# reverse는 원소들을 뒤집어진 순서로 배치
 # num.sort(reverse=True)  # 반전
 # print(num)
 ```
@@ -372,7 +373,10 @@ print(grades[0][0])
 # 첫 번째 시험의 평균*______*
 print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
 ```
-##### 6-2-3. 리스트 안의 리스트 (Nested List)  
-* 리스트 안에 또 다른 리스트가 있을 수 있음.  
-
-test
+##### 6-2-3. index 메소드  
+* 리스트 인자의 인덱스를 리턴  
+```python
+members = ["수시", "뱁새", "구구쓰", "복근"]
+print(members.index("뱁새"))
+print(members.index("복근"))
+```

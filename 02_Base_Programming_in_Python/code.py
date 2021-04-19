@@ -574,7 +574,11 @@
 # print(a)
 # print(a[1])
 
-a = [1, 2, 3, 4, 5, 6]
-del a[:3]
+# a = [1, 2, 3, 4, 5, 6]
+# del a[:3]
+#
+# print(a)
 
-print(a)
+members = ["수시", "뱁새", "구구쓰", "복근"]
+print(members.index("뱁새"))
+print(members.index("복근"))
