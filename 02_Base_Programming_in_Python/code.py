@@ -579,6 +579,6 @@
 #
 # print(a)
 
-members = ["수시", "뱁새", "구구쓰", "복근"]
-print(members.index("뱁새"))
-print(members.index("복근"))
+# members = ["수시", "뱁새", "구구쓰", "복근"]
+# print(members.index("뱁새"))
+# print(members.index("복근"))
