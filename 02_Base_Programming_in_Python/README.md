@@ -294,26 +294,27 @@ a.remove(1)
 * 특정 인덱스를 삭제한 다음, 리스트 재조정  
 * del은 리스트의 범위를 지정해 삭제 가능  
 * slice는 원본 리스트는 그대로 존재, 원하는 범위만큼 출력 후 새로운 리스트 생성  
+
 ```python
-# a = [1, 2, 1, 3, 4, 5, 1]
-# removed = a.pop(1)
-#
-# print(a)
-# print(removed)
-# print(a[0])
-
-# a = [1, 2, 3, 4, 5, 6]
-# del a[1]
-# 
-# print(a)
-# print(a[1])
-
-a = [1, 2, 3, 4, 5, 6]
-# del a[:3]
+a = [1, 2, 1, 3, 4, 5, 1]
+removed = a.pop(1)
 
 print(a)
+print(removed)
+print(a[0])
 
+a = [1, 2, 3, 4, 5, 6]
+del a[1]
+ 
+print(a)
+print(a[1])
+
+a = [1, 2, 3, 4, 5, 6]
+del a[:3]
+
+print(a)
 ```
+
 #### 6-2. 리스트 정렬  
 * "sorted" 는 기존 리스트 건드리지 않고, 정렬된 새 리스트 리턴  
 ```python
@@ -370,9 +371,10 @@ print(grades[0])
 # 첫 번째 학생의 첫 번째 시험 성적
 print(grades[0][0])
 
-# 첫 번째 시험의 평균*______*
+# 첫 번째 시험의 평균
 print(grades[0][0] + grades[1][0] + grades[2][0] / 3)
 ```
+
 ##### 6-2-3. index 메소드  
 * 리스트 인자의 인덱스를 리턴  
 ```python

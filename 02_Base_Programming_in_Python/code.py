@@ -561,6 +561,7 @@
 # print(a)
 # print(a[0])
 
+# list pop
 # a = [1, 2, 1, 3, 4, 5, 1]
 # removed = a.pop(1)
 #
@@ -568,6 +569,7 @@
 # print(removed)
 # print(a[0])
 
+#list del
 # a = [1, 2, 3, 4, 5, 6]
 # del a[1]
 #
