@@ -262,7 +262,7 @@ print(numbers[:3])
 ```
 * 리스트의 인자를 바꿀 수 있음.  
 ```python
-numbers = [2, 3, 4, 5]```python
+numbers = [2, 3, 4, 5]
 numbers[0] = numbers[0] + numbers[1]
 print(numbers)
 ``` 
