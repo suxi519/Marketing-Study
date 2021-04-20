@@ -226,7 +226,7 @@ while True:
 
 print(i)
 ````
-##### 5-3-1. continue 문
+##### 5-3-2. continue 문
 * 현재 진행되고 있는 수행 부분을 중단하고 바로 조건 부분을 확인하고 싶으면 continue문 씀.  
 ```python
 i = 0
@@ -237,6 +237,13 @@ while i < 15:
     if i % 2 == 1:
         continue
     print(i)
+```
+#### 5-4. for 반복문  
+```python
+my_list = [2, 3, 4, 5, 6]
+
+for number in my_list:
+    print(number)
 ```
 
 ### 6. 리스트(list)  

@@ -584,3 +584,8 @@
 # members = ["수시", "뱁새", "구구쓰", "복근"]
 # print(members.index("뱁새"))
 # print(members.index("복근"))
+
+my_list = [2, 3, 4, 5, 6]
+
+for numbers in my_list:
+    print(numbers)
