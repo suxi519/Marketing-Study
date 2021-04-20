@@ -245,6 +245,20 @@ my_list = [2, 3, 4, 5, 6]
 for number in my_list:
     print(number)
 ```
+ 
+ #### 5-6. range 함수
+ * 간편함, 깔끔함, 메모리 효율성 놓음.  
+```python
+# range() / 한 개 쓰는 버전
+for i in range(10):
+    print(i)
+# range( ,  ) / 두 개 쓰는 버전
+for i in range(3, 11):
+    print(i)
+# range( ,  ,  ) / 세 개 쓰는 버전
+for i in range(3, 17, 3):
+    print(i)
+```
 
 ### 6. 리스트(list)  
 * 변수에 여러가지 값을 저장  
