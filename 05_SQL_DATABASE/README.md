@@ -21,6 +21,16 @@ README.md
 * DB를 관리하기 위해 사용하는 프로그램  
 ![image](https://user-images.githubusercontent.com/55868306/115328690-fbced000-a1cb-11eb-88af-4fdca9695bd5.png)
 
+### 1-2-1. DBMS의 주요 구성요소  
+* client(클라이언트 프로그램)  
+사용자가 server에 접속해서 원하는 데이터베이스 관련 작업을 할 수 있도록, SQL을 입력할 수 있는 화면 제공 프로그램  
+* server(서버 프로그램)  
+client로부터 SQL문 등을 전달받아 데이터베이스 관련 작업을 직접 처리하는 프로그램  
+![image](https://user-images.githubusercontent.com/55868306/115340824-68ed6000-a1e2-11eb-861c-63e454724450.png)
+
+
 ### 1-2-1. SQL(Structured Query Language)  
+* DBMS에 명령을 내리기 위해 사용하는 언어  
+
 
   
