@@ -585,7 +585,26 @@
 # print(members.index("뱁새"))
 # print(members.index("복근"))
 
-my_list = [2, 3, 4, 5, 6]
-
-for numbers in my_list:
-    print(numbers)
+# my_list = [2, 3, 4, 5, 6]
+#
+# for numbers in my_list:
+# print(numbers)
+#
+# my_dic = {
+#     5: 25,
+#     2: 4,
+#     3: 9
+# }
+# print(my_dic)
+# print(type(my_dic))
+# print(my_dic[5])
+# my_dic[7] = 49
+# print(my_dic)
+#
+# my_family = {
+#     '엄마' : '김공주',
+#     '아빠' : '이용왕',
+#     '아들' : '이왕자',
+#     '딸' : '이거지'
+# }
+# print(my_family['엄마'])

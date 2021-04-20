@@ -405,3 +405,22 @@ print(members.index("뱁새"))
 print(members.index("복근"))
 ```
 
+#### 6-3. 사전(dictionary)  
+* key-value pair (키-값 쌍)  
+```python
+my_dic = {
+    5: 25,
+    2: 4,
+    3: 9
+}
+```
+* 순서라는 개념이 없음.  
+* 사전의 키-값은 정수형일 필요가 없음.  
+```python
+my_family = {
+    '엄마' : '김공주',
+    '아빠' : '이용왕',
+    '아들' : '이왕자',
+    '딸' : '이거지'
+}
+```
