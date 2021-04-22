@@ -608,3 +608,27 @@
 #     '딸' : '이거지'
 # }
 # print(my_family['엄마'])
+
+my_family = {
+     '엄마' : '김공주',
+     '아빠' : '이용왕',
+     '아들' : '이왕자',
+     '딸' : '이거지'
+}
+
+print('이거지' in my_family.values())
+
+for value in my_family.values():
+    print(value)
+
+print('아들' in my_family.keys())
+
+for value in my_family.keys():
+    print(value)
+
+for key in my_family.keys():
+    value = my_family[key]
+    print(key, value)
+
+for key, value in my_family.items():
+    print(key, value)
