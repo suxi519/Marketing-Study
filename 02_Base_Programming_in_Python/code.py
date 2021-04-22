@@ -699,12 +699,72 @@
 # num[0] = 5
 # print(num)
 
-def sum_digit(num):
-    total = 0
+# 자리수 합 리턴
+# def sum_digit(num):
+#     total = 0
+#     str_num = str(num)
+#
+#     for i in range(len(str_num)):
+#         digit = str_num[i]
+#         total += int(digit)
+#
+#     return total
+#
+# digit_total = 0
+# for i in range(1, 1001):
+#     digit_total += sum_digit(i)
 
-    for num in len(sum_digit):
-        print += len(sum_digit)
+# print(digit_total)
 
-    print(sum_digit)
+# def mask_security_number(security_number):
+#
+#     num_list = []
+#     for i in range(len(security_number)):
+#         num_list.append(security_number[i])
+#
+#     for i in range(len(num_list) - 4, len(num_list)):
+#         num_list[i] = '*'
+#
+#     total_str = ""
+#     for i in range(len(num_list)):
+#         total_str += num_list[i]
+#
+#     return total_str
+#
+# print(mask_security_number("880720-1234567"))
 
-print(sum_digit(486))
+
+
+# 테스트
+# print(mask_security_number("880720-1234567"))
+# print(mask_security_number("8807201234567"))
+# print(mask_security_number("930124-7654321"))
+# print(mask_security_number("9301247654321"))
+# print(mask_security_number("761214-2357111"))
+# print(mask_security_number("7612142357111"))
+
+#
+# def sum_digit(num):
+#     total = 0
+# s
+#     for num in len(sum_digit):
+#         print += len(sum_digit)
+#
+#     print(sum_digit)
+#
+# print(sum_digit(486))
+
+def mask_security_number(security_number):
+    return security_number [:-4] + '*****'
+
+print(mask_security_number("880720-1234567"))
+print(mask_security_number("8807201234567"))
+print(mask_security_number("930124-7654321"))
+print(mask_security_number("9301247654321"))
+print(mask_security_number("761214-2357111"))
+print(mask_security_number("7612142357111"))
+
+list_1 = [1, 2, 3, 4]
+list_2 = [5, 6, 7, 8]
+list_3 = list_1 + list_2
+print(list_3)
