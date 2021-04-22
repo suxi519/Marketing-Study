@@ -661,40 +661,50 @@
 #
 # print(y)
 
-eng_list = ['a', 'b', 'c', 'd', 'e']
-eng_str = 'abcde'
+# eng_list = ['a', 'b', 'c', 'd', 'e']
+# eng_str = 'abcde'
+#
+# print(eng_str[0])
+# print(eng_str[1])
+# print(eng_str[2])
+# print(eng_str[-1])
+# print(eng_list[0])
+# print(eng_list[1])
+# print(eng_list[2])
+# print(eng_list[-1])
+# print(eng_list[0:3])
+# print(eng_list[3:])
+# print(eng_list[:4])
+# print(eng_str[0:3])
+# print(eng_str[3:])
+# print(eng_str[:4])
+# print(len(eng_list))
+# print(len(eng_str))
+#
+# str_1 = 'hello'
+# str_2 = 'world'
+# str_3 = str_1 + str_2
+# print(str_3)
+#
+# list_1 = [1, 2, 3, 4]
+# list_2 = [5, 6, 7, 8]
+# list_3 = list_1 + list_2
+# print(list_3)
+#
+# num = [1, 2, 3, 4]
+# num[0] = 5
+# print(num)
+#
+# num = '1234'
+# num[0] = 5
+# print(num)
 
-print(eng_str[0])
-print(eng_str[1])
-print(eng_str[2])
-print(eng_str[-1])
-print(eng_list[0])
-print(eng_list[1])
-print(eng_list[2])
-print(eng_list[-1])
-print(eng_list[0:3])
-print(eng_list[3:])
-print(eng_list[:4])
-print(eng_str[0:3])
-print(eng_str[3:])
-print(eng_str[:4])
-print(len(eng_list))
-print(len(eng_str))
+def sum_digit(num):
+    total = 0
 
-str_1 = 'hello'
-str_2 = 'world'
-str_3 = str_1 + str_2
-print(str_3)
+    for num in len(sum_digit):
+        print += len(sum_digit)
 
-list_1 = [1, 2, 3, 4]
-list_2 = [5, 6, 7, 8]
-list_3 = list_1 + list_2
-print(list_3)
+    print(sum_digit)
 
-num = [1, 2, 3, 4]
-num[0] = 5
-print(num)
-
-num = '1234'
-num[0] = 5
-print(num)
+print(sum_digit(486))
