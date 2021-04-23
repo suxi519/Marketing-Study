@@ -443,7 +443,7 @@ print(y)
 * 숫자, 불린, 문자열 인자 바꿀 수 없음(immutable)  
 
 #### 6-5. 모듈  
-* 코드와 재활용성을 높이고, 유지보수르 쉽게하는 다양한 기법들  
+* 코드와 재활용성을 높이고, 유지보수르 쉽게하는 기능들을 정리해둔 프로그램    
 ```python
 import calculator as calc
 
@@ -457,5 +457,17 @@ print(multiply(3,4))
 # 권장하지 않음, 함수의 출처가 불분명해짐.
 from calculator import * 
 ```
+##### 6-5-1. 스탠다드 라이브러리  
+```python
+import math
+print(math.log10(100))
 
+import random
+print(random.random())
+
+import os
+print(os.getlogin())
+print(os.getcwd())  #현재 파일의 경로를 불러올 수 있음.
+
+``` 
  
