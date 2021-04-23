@@ -480,7 +480,7 @@ print(random.randint(1, 20))
 print(random.uniform(0, 1))
 ```
 
-##### 6-5-2. datetime 모듈  
+##### 6-5-3. datetime 모듈  
 * '날짜'와 '시간'을 다루기 위한 다양한 '클래스'가 있음.  
 ```python
 import datetime
@@ -526,7 +526,16 @@ print(today.strftime("%a, %b %dth %y"))
 ```
 ![image](https://user-images.githubusercontent.com/55868306/115842356-b3781200-a458-11eb-840f-bf39e432dc4c.png)
 
+#### 6-5. input 함수  
+* 사용자가 어떤 값을 입력하게 하고, 그 값을 변수에 저장
+```python
+name = input("이름을 입력하세요: ")  #설명용도
+print(name)
 
+#input의 입력값은 str 형태
+x = int(input("숫자를 입력하세요: "))
+print(x + 5)
+```
 
 
 
