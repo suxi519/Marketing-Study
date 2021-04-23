@@ -442,6 +442,20 @@ print(y)
 * 리스트는 인자를 바꿀 수 있음(mutable)  
 * 숫자, 불린, 문자열 인자 바꿀 수 없음(immutable)  
 
+#### 6-5. 모듈  
+* 코드와 재활용성을 높이고, 유지보수르 쉽게하는 다양한 기법들  
+```python
+import calculator as calc
 
+print(calc.add(2,5))
+print(calc.multiply(3,4))
+
+from calculator import add, multiply
+print(add(2,5))
+print(multiply(3,4))
+
+# 권장하지 않음, 함수의 출처가 불분명해짐.
+from calculator import * 
+```
 
  
