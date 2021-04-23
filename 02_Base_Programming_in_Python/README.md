@@ -461,9 +461,23 @@ from calculator import *
 ```python
 import math
 print(math.log10(100))
+````
 
+* random 모듈 - 랜덤한 숫자를 생성하기 위한 다양한 함수 제공.  
+* randint 함수 = 두 수 사이의 어떤 랜덤한 정수를 리턴하는 함수.  
+* uniform 함수 - 두 수 사이의 랜덤한 소수를 리턴하는 함수.  
+```python
 import random
 print(random.random())
+# randint(a, b)는, a =< N =< b 정수 N 리턴  
+print(random.randint(1, 20))
+# uniform 함수 - 두 수 사이의 랜덤한 소수를 리턴하는 함수.  
+print(random.uniform(0, 1))
+```
+
+
+
+
 
 import os
 print(os.getlogin())
