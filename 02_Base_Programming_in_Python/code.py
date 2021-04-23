@@ -754,17 +754,38 @@
 #
 # print(sum_digit(486))
 
-def mask_security_number(security_number):
-    return security_number [:-4] + '*****'
+# def mask_security_number(security_number):
+#     return security_number [:-4] + '*****'
+#
+# print(mask_security_number("880720-1234567"))
+# print(mask_security_number("8807201234567"))
+# print(mask_security_number("930124-7654321"))
+# print(mask_security_number("9301247654321"))
+# print(mask_security_number("761214-2357111"))
+# print(mask_security_number("7612142357111"))
+#
+# list_1 = [1, 2, 3, 4]
+# list_2 = [5, 6, 7, 8]
+# list_3 = list_1 + list_2
+# print(list_3)
 
-print(mask_security_number("880720-1234567"))
-print(mask_security_number("8807201234567"))
-print(mask_security_number("930124-7654321"))
-print(mask_security_number("9301247654321"))
-print(mask_security_number("761214-2357111"))
-print(mask_security_number("7612142357111"))
+def is_palindrome(word):
+    for left in range(len(word) // 2):
+        # 한 쌍이라도 일치하지 않으면 바로 False를 리턴하고 함수를 끝냄
+        right = len(word) - left - 1
+        if word[left] != word[right]:
+            return False
 
-list_1 = [1, 2, 3, 4]
-list_2 = [5, 6, 7, 8]
-list_3 = list_1 + list_2
-print(list_3)
+    # for문에서 나왔다면 모든 쌍이 일치
+    return True
+
+
+# 테스트
+print(is_palindrome("racecar"))
+print(is_palindrome("stars"))
+print(is_palindrome("토마토"))
+print(is_palindrome("kayak"))
+print(is_palindrome("hello"))
+print(is_palindrome("hello"))
+
+print(7//2)
