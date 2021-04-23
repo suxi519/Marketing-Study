@@ -457,13 +457,14 @@ print(multiply(3,4))
 # 권장하지 않음, 함수의 출처가 불분명해짐.
 from calculator import * 
 ```
-##### 6-5-1. 스탠다드 라이브러리  
+##### 6-5-1. math 모듈    
 ```python
 import math
 print(math.log10(100))
 ````
 
-* random 모듈 - 랜덤한 숫자를 생성하기 위한 다양한 함수 제공.  
+##### 6-5-2. random 모듈
+* 랜덤한 숫자를 생성하기 위한 다양한 함수 제공.  
 * randint 함수 = 두 수 사이의 어떤 랜덤한 정수를 리턴하는 함수.  
 * uniform 함수 - 두 수 사이의 랜덤한 소수를 리턴하는 함수.  
 ```python
@@ -475,6 +476,20 @@ print(random.randint(1, 20))
 print(random.uniform(0, 1))
 ```
 
+##### 6-5-2. datetime 모듈  
+* '날짜'와 '시간'을 다루기 위한 다양한 '클래스'가 있음.  
+```python
+import datetime
+
+pi_day = datetime.datetime(2020, 3, 14, 16, 50, 00)
+print(pi_day)
+print(type(pi_day))
+
+# 지금 이 순간의 날짜와 시간을 받아오고 싶을 때
+today = datetime.datetime.now()
+print(today)
+print(type(today))
+```
 
 
 
