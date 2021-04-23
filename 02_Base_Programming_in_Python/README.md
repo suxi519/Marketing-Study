@@ -461,7 +461,11 @@ from calculator import *
 ```python
 import math
 print(math.log10(100))
-````
+
+import os
+print(os.getlogin())
+print(os.getcwd())  #현재 파일의 경로를 불러올 수 있음.
+``` 
 
 ##### 6-5-2. random 모듈
 * 랜덤한 숫자를 생성하기 위한 다양한 함수 제공.  
@@ -525,9 +529,5 @@ print(today.strftime("%a, %b %dth %y"))
 
 
 
-import os
-print(os.getlogin())
-print(os.getcwd())  #현재 파일의 경로를 불러올 수 있음.
 
-``` 
  
