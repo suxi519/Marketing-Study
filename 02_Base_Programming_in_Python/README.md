@@ -504,7 +504,17 @@ my_timedelta = datetime.timedelta(day=5, hour=3, minutes=10, seconds=50)
 print(today)
 print(today + my_timedelta)
 
+#datetime 값에서 '연도'나 '월' 같은 값을 추출하려면?
+today = datetime.datetime.now()
 
+print(today)
+print(today.year) #연도
+print(today.month) # 월
+print(today.day) # 일
+print(today.hour) # 시
+print(today.minute) # 분
+print(today.second) #초
+print(today.microsecond)
 ```
 
 
