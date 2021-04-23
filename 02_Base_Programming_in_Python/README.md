@@ -489,6 +489,22 @@ print(type(pi_day))
 today = datetime.datetime.now()
 print(today)
 print(type(today))
+
+# 두 datetime 값 사이의 기간을 알고 싶으면, 숫자 뺄셈 하듯 빼면 됨.
+today = datetime.datetime.now()
+pi_day = datetime.datetime(2020, 3, 14, 16, 50, 00)
+print(today - pi_day)
+
+# timedelta는 날짜 간의 차이를 나타내는 타입
+print(type(today - pi_day))
+
+# timedelta를 생성해서 datetime 값에 더해 줄 수 있음.
+today = datetime.datetime.now()
+my_timedelta = datetime.timedelta(day=5, hour=3, minutes=10, seconds=50)
+print(today)
+print(today + my_timedelta)
+
+
 ```
 
 
