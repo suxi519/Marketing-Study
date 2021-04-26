@@ -821,6 +821,24 @@
 # first_name = name_data[1]
 # print(first_name, last_name)
 
-print(" \n\n 2 \t 3 \n 5 7 11 \n\n".split())
-numbers = " \n\n 2 \t 3 \n 5 7 11 \n\n".split()
-print(int(numbers[0]) + int(numbers[1]))
+# print(" \n\n 2 \t 3 \n 5 7 11 \n\n".split())
+# numbers = " \n\n 2 \t 3 \n 5 7 11 \n\n".split()
+# print(int(numbers[0]) + int(numbers[1]))
+
+# 파일을 연다
+with open('매출.txt', 'r', encoding='UTF8') as f:
+    total_revenue = 0
+    total_days = 0
+    # 숫자만 분리
+    for line in f:
+        data = line.strip().split(": ")
+        revenue = int(data[1])
+        print(revenue)
+    # 매출 계산
+        total_revenue += revenue
+        total_days += 1
+
+        print(total_revenue / total_days)
+
+
+
