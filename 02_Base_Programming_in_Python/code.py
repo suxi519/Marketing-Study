@@ -840,5 +840,7 @@
 #
 #         print(total_revenue / total_days)
 
-
+with open('new_file.txt', 'w') as f:
+    f.write("hello!\n")
+    f.write("I'm suxi\n")
 
