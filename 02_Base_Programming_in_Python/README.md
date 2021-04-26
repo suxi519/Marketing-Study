@@ -551,7 +551,12 @@ with open('chicken.txt', 'r') as f:
 print("   abc   def   ".strip())
 ```
 #### 6-8. split   
-
+* 문자열을 공백 혹은 어떠한 기준으로 나눌 때 사용하는 함수  
+* split()은 요소들을 문자열로 만듦.  
+```python
+my_string = "1, 2, 3, 4, 5, 6"
+print(my_string.split(","))
+```
 
 
 

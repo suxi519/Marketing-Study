@@ -791,24 +791,36 @@
 # print(7//2)
 
 # 바뀌지 않을 상수 정의 - 게임의 정답, 총 기회 수
-import random
+# import random
+#
+# answer = random.randint(1, 20)
+# tries_num = 4
+#
+# guess = -1
+# tries = 0
+#
+# while guess != answer and tries  < tries_num:
+#     guess = int(input(f"기회가 {tries_num - tries}번 남았습니다. 1-20 사이의 숫자를 맞혀 보세요: "))
+#     tries += 1
+#
+#     if answer > guess:
+#         print("up")
+#     elif answer < guess:
+#         print("down")
+# if guess == answer:
+#     print(f"축하합니다. {tries_num - tries}번 만에 숫자를 맞히셨습니다.")
+# else:
+#     print(f"아쉽습니다. 정담은 {answer}입니다.")
 
-answer = random.randint(1, 20)
-tries_num = 4
+# my_string = "1, 2, 3, 4, 5, 6"
+# print(my_string.split(", "))
 
-guess = -1
-tries = 0
+# full_name = "Hong, Gu"
+# name_data = full_name.split(", ")
+# last_name = name_data[0]
+# first_name = name_data[1]
+# print(first_name, last_name)
 
-while guess != answer and tries  < tries_num:
-    guess = int(input(f"기회가 {tries_num - tries}번 남았습니다. 1-20 사이의 숫자를 맞혀 보세요: "))
-    tries += 1
-
-    if answer > guess:
-        print("up")
-    elif answer < guess:
-        print("down")
-if guess == answer:
-    print(f"축하합니다. {tries_num - tries}번 만에 숫자를 맞히셨습니다.")
-else:
-    print(f"아쉽습니다. 정담은 {answer}입니다.")
-
+print(" \n\n 2 \t 3 \n 5 7 11 \n\n".split())
+numbers = " \n\n 2 \t 3 \n 5 7 11 \n\n".split()
+print(int(numbers[0]) + int(numbers[1]))
