@@ -840,7 +840,25 @@
 #
 #         print(total_revenue / total_days)
 
-with open('new_file.txt', 'w') as f:
-    f.write("hello!\n")
-    f.write("I'm suxi\n")
+# with open('new_file.txt', 'w') as f:
+#     f.write("hello!\n")
+#     f.write("I'm suxi\n")
 
+# 사용자의 입력을 받아야함
+
+
+
+# 만약 q를 입력 받으면 프로그램을 종료해야함.
+
+# 입력받은 단어가 dict형태로 정리되어야함.
+with open('voca.txt', 'w', encoding='UTF8' ) as f:
+     while True:
+          english_word = input('영어 단어를 입력하세요: ')
+          if english_word == 'q':
+               break
+
+          korean_word = input('한국어 뜻을 입력하세요: ')
+          if korean_word == 'q':
+               break
+
+          print('{}: {}\n'.format(english_word, korean_word))
