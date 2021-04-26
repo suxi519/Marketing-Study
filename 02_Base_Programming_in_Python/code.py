@@ -826,19 +826,19 @@
 # print(int(numbers[0]) + int(numbers[1]))
 
 # 파일을 연다
-with open('매출.txt', 'r', encoding='UTF8') as f:
-    total_revenue = 0
-    total_days = 0
-    # 숫자만 분리
-    for line in f:
-        data = line.strip().split(": ")
-        revenue = int(data[1])
-        print(revenue)
-    # 매출 계산
-        total_revenue += revenue
-        total_days += 1
-
-        print(total_revenue / total_days)
+# with open('매출.txt', 'r', encoding='UTF8') as f:
+#     total_revenue = 0
+#     total_days = 0
+#     # 숫자만 분리
+#     for line in f:
+#         data = line.strip().split(": ")
+#         revenue = int(data[1])
+#         print(revenue)
+#     # 매출 계산
+#         total_revenue += revenue
+#         total_days += 1
+#
+#         print(total_revenue / total_days)
 
 
 
