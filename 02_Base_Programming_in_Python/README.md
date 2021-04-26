@@ -545,7 +545,12 @@ with open('chicken.txt', 'r') as f:
     for line in f:
     print(line)
 ```
-
+#### 6-7. strip  
+* 화이트 스페이스("","\t","\n")를 제거해줌.  
+```python
+print("   abc   def   ".strip())
+```
+  
 
 
 
