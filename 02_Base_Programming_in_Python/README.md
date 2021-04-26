@@ -550,7 +550,8 @@ with open('chicken.txt', 'r') as f:
 ```python
 print("   abc   def   ".strip())
 ```
-  
+#### 6-8. split   
+
 
 
 
