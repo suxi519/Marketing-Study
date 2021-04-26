@@ -536,6 +536,23 @@ print(name)
 x = int(input("숫자를 입력하세요: "))
 print(x + 5)
 ```
+#### 6-6. 파일 읽기  
+
+```python
+# f라는 파일을 읽어들임.
+with open('chicken.txt', 'r') as f:
+# print(type(f))
+    for line in f:
+    print(line)
+```
+
+
+
+
+
+
+
+
 
 
 
