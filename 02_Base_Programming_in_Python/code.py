@@ -569,7 +569,7 @@
 # print(removed)
 # print(a[0])
 
-#list del
+# list del
 # a = [1, 2, 3, 4, 5, 6]
 # del a[1]
 #
@@ -734,7 +734,6 @@
 # print(mask_security_number("880720-1234567"))
 
 
-
 # 테스트
 # print(mask_security_number("880720-1234567"))
 # print(mask_security_number("8807201234567"))
@@ -844,21 +843,36 @@
 #     f.write("hello!\n")
 #     f.write("I'm suxi\n")
 
-# 사용자의 입력을 받아야함
-
-
-
-# 만약 q를 입력 받으면 프로그램을 종료해야함.
-
 # 입력받은 단어가 dict형태로 정리되어야함.
-with open('voca.txt', 'w', encoding='UTF8' ) as f:
-     while True:
-          english_word = input('영어 단어를 입력하세요: ')
-          if english_word == 'q':
-               break
+# with open('vocabulary.txt', 'w', encoding='UTF8' ) as f:
+#      while True:
+#           english_word = input('영어 단어를 입력하세요: ')
+#           if english_word == 'q':
+#                break
+#
+#           korean_word = input('한국어 뜻을 입력하세요: ')
+#           if korean_word == 'q':
+#                break
+#
+#           f.write('{}: {}\n'.format(english_word, korean_word))
 
-          korean_word = input('한국어 뜻을 입력하세요: ')
-          if korean_word == 'q':
-               break
+with open('vocabulary.txt', 'r', encoding='UTF8') as f:
+    for line in f:
+        data = line.strip().split(": ")
+        english, korean = data
+        # english = data[0]
+        # korean = data[1]
 
-          print('{}: {}\n'.format(english_word, korean_word))
+        user_input = input(f'{korean} : ')
+
+        if user_input == english:
+            print("맞습니다.")
+
+        else:
+            print(f"아쉽습니다. 정담은 {english} 입니다")
+
+        # is_correct = user_input == english
+        # if is_correct:
+        #        print("맞습니다.")
+        #        continue
+        # print(f"아쉽습니다. 정담은 {english} 입니다")
