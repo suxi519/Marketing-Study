@@ -856,6 +856,43 @@
 #
 #           f.write('{}: {}\n'.format(english_word, korean_word))
 
+class FileReader:
+    def __init__(self, file_name: str):
+        self._file_name = file_name
+        self._encoding = 'UTF8'
+
+    @property
+    def file_name(self):
+        return self._file_name
+
+    def yield_by_row(self):
+        with open(self.file_name, 'r', encoding=self._encoding) as f:
+            for row in f:
+                yield row
+
+
+class Splitter:
+    @staticmethod
+    def split_by_colon(row: str):
+        return row.strip().split(': ')
+
+
+class Validator:
+    @staticmethod
+    def validate(english: str, korean: str):
+        user_input = input(f'{korean} : ')
+        if user_input == english:
+            print('맞습니다.')
+        else:
+            print(f'정답은 {english} 입니다.')
+
+
+reader = FileReader(file_name='vocabulary.txt')
+for row in reader.yield_by_row():
+    english, korean = Splitter.split_by_colon(row)
+    Validator.validate(english, korean)
+
+
 with open('vocabulary.txt', 'r', encoding='UTF8') as f:
     for line in f:
         data = line.strip().split(": ")
