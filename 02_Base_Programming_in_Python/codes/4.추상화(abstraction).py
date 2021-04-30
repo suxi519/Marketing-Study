@@ -89,6 +89,7 @@ x = x % 7
 x %= 7
 
 4-8. scope(범위)
+
 def my_function():
     x = 3 # 로컬변수
     print(x)
