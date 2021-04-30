@@ -1,4 +1,3 @@
-
 # names = ["윤수", "혜린", "소희"]
 # print(names[0])
 #
@@ -478,13 +477,13 @@ class Validator:
             print(f'정답은 {english} 입니다.')
 
 
-reader = FileReader(file_name='../vocabulary.txt')
+reader = FileReader(file_name='vocabulary.txt')
 for row in reader.yield_by_row():
     english, korean = Splitter.split_by_colon(row)
     Validator.validate(english, korean)
 
 
-with open('../vocabulary.txt', 'r', encoding='UTF8') as f:
+with open('vocabulary.txt', 'r', encoding='UTF8') as f:
     for line in f:
         data = line.strip().split(": ")
         english, korean = data

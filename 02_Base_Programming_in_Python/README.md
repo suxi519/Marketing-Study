@@ -560,7 +560,7 @@ print(my_string.split(","))
 #### 6-9. 파일쓰기  
 * 'a' append는 파일을 쓸 때 마지막에 텍스트를 추가.  
 ```python
-with open('new_file.txt', 'w') as f:
+with open('codes/new_file.txt', 'w') as f:
     f.write("hello!")
     f.write("I'm suxi")
 ```
