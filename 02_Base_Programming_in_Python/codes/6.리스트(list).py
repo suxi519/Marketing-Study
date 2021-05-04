@@ -446,49 +446,52 @@
 #
 #           f.write('{}: {}\n'.format(english_word, korean_word))
 
-class FileReader:
-    def __init__(self, file_name: str):
-        self._file_name = file_name
-        self._encoding = 'UTF8'
+# class FileReader:
+#     def __init__(self, file_name: str):
+#         self._file_name = file_name
+#         self._encoding = 'UTF8'
+#
+#     @property
+#     def file_name(self):
+#         return self._file_name
+#
+#     def yield_by_row(self):
+#         with open(self.file_name, 'r', encoding=self._encoding) as f:
+#             for row in f:
+#                 yield row
+#
+#
+# class Splitter:
+#     @staticmethod
+#     def split_by_colon(row: str):
+#         return row.strip().split(': ')
+#
+#
+# class Validator:
+#     @staticmethod
+#     def validate(english: str, korean: str):
+#         user_input = input(f'{korean} : ')
+#         if user_input == english:
+#             print('맞습니다.')
+#         else:
+#             print(f'정답은 {english} 입니다.')
+#
+#
+# reader = FileReader(file_name='vocabulary.txt')
+# for row in reader.yield_by_row():
+#     english, korean = Splitter.split_by_colon(row)
+#     Validator.validate(english, korean)
 
-    @property
-    def file_name(self):
-        return self._file_name
 
-    def yield_by_row(self):
-        with open(self.file_name, 'r', encoding=self._encoding) as f:
-            for row in f:
-                yield row
-
-
-class Splitter:
-    @staticmethod
-    def split_by_colon(row: str):
-        return row.strip().split(': ')
-
-
-class Validator:
-    @staticmethod
-    def validate(english: str, korean: str):
-        user_input = input(f'{korean} : ')
-        if user_input == english:
-            print('맞습니다.')
-        else:
-            print(f'정답은 {english} 입니다.')
-
-
-reader = FileReader(file_name='vocabulary.txt')
-for row in reader.yield_by_row():
-    english, korean = Splitter.split_by_colon(row)
-    Validator.validate(english, korean)
-
+import random
 
 with open('vocabulary.txt', 'r', encoding='UTF8') as f:
     for line in f:
         data = line.strip().split(": ")
-        english, korean = data
-        # english = data[0]
-        # korean = data[1]
+        # english, korean = data
+        english = data[0]
+        korean = data[1]
+        random.choice(korean)
 
         user_input = input(f'{korean} : ')
 
@@ -503,3 +506,19 @@ with open('vocabulary.txt', 'r', encoding='UTF8') as f:
         #        print("맞습니다.")
         #        continue
         # print(f"아쉽습니다. 정담은 {english} 입니다")
+
+def is_palindrome(word):
+    for left in range(len(word) // 2):
+        # 한 쌍이라도 일치하지 않으면 바로 False를 리턴하고 함수를 끝냄
+        right = len(word) - left - 1
+        if word[left] != word[right]:
+            return False
+
+    # for문에서 나왔다면 모든 쌍이 일치
+    return True
+# 테스트
+print(is_palindrome("racecar"))
+print(is_palindrome("stars"))
+print(is_palindrome("토마토"))
+print(is_palindrome("kayak"))
+print(is_palindrome("hello"))

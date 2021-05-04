@@ -109,3 +109,5 @@ print(not not False)
 print(7 == 7 or (4 < 3 and 12 > 10))
 x: int = 3
 print(x > 4 or not (x < 2 or x == 3))
+
+print(7 // 2)
