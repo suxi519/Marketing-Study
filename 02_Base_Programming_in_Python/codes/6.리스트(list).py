@@ -482,29 +482,46 @@
 #     english, korean = Splitter.split_by_colon(row)
 #     Validator.validate(english, korean)
 
-
+# random 함수를 불러오는 모듈 import
+# random 모듈 import
 import random
-
+# 한글을 읽는 UTF8이라는 인코딩방식으로 vocabulary 라는 텍스트 파일을 읽는데, 이 파일의 변수명을 f로 정의했다.
 with open('vocabulary.txt', 'r', encoding='UTF8') as f:
+    # new_list 라는 이름의 빈 리스트를 초기화했다.
     new_list = []
+    # f라는 파일의 각 line(줄)을 순서대로 불러들인다.
     for line in f:
+        # 불러들인 각 줄을 new_list 라는 리스트에 차곡차곡 추가한다.
         new_list.append(line)
+        # new_list 에 차곡차곡 잘 추가되는지 출력해본다.
         print(new_list)
-
+    # while 문으로 반복적인 작업을 진행한다.
+    # new_list 에 값이 존재하는 동안 반복한다.
     while new_list:
+        # while 문의 반복적인 과정들이 잘 수행되고 있는지 확인하기 위해 여기 출력해본다.
         print(new_list)
+        # new_list 요소들을 random.choice 라는 메소드를 써서 랜덤으로 하나씩 선택한다.
         random_line = random.choice(new_list)
+        # new_list 에서 랜덤하게 뽑힌 요소(random_line)는 new_list 에서 제거한다.
         new_list.remove(random_line)
-        print(random_line, "\n")
+        # random_line 의 요소를 개행해서 출력한다.
+        print(random_line, "\n")  # \n : 개행문자
 
-        data = random_line.strip().split(": ")
-        english, korean = data
-
+        # random_line 의 튜플 인자를 : 기준으로 두개로 나누고 data 라는 변수명을 붙여준다.
+        # random_line 의 앞뒤 공백을 제거한 뒤, ': '문자열로 분해된 튜플을 data 라는 변수에 할당.
+        data = random_line.strip().split(": ")  # ex) ('cat', '고양이')
+        # 각 튜플의 요소를 english, korean 이라는 변수에 할당한다.
+        english, korean = data  # english = 'cat', korean = '고양이'
+        # user 에게 입력받은 대답을 user_input 이라는 변수에 할당(allocate)해준다.
         user_input = input(f'{korean} : ')
+        # 만약 user 가 쓴 내용이 english 의 값과 동일하다면
         if user_input == english:
+            # '맞습니다.'라는 문자열을 출력한다.
             print("맞습니다.")
+        # 맞지않으면
         else:
-            print(f"아쉽습니다. 정담은 {english} 입니다")
+            # 아쉽습니다. 정답은 {english} 입니다라는 문자열을 출력한다.
+            print(f"아쉽습니다. 정답은 {english} 입니다")
 
         # is_correct = user_input == english
         # if is_correct:
