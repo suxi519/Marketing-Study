@@ -1,8 +1,8 @@
 # 5-1. while 반복문
-while 조건 부분:  # 불린 값으로 계산되는 식 ex) x < 3, name == '유재석'
-   수행 부분  # 반복적으로 실행하고 싶은 명령 ex) print("나는 예쁘다"), i = i + 1
+# while 조건 부분:  # 불린 값으로 계산되는 식 ex) x < 3, name == '유재석'
+#    수행 부분  # 반복적으로 실행하고 싶은 명령 ex) print("나는 예쁘다"), i = i + 1
 
-while 문법 연습
+# while 문법 연습
 i = 1
 while i <= 50:
     print(i * 2)
@@ -13,9 +13,9 @@ temperature = 12
 if temperature <= 10:
     print("자켓을 입는다")
 else:
-print("자켓을 입지 않는다.")
+    print("자켓을 입지 않는다.")
 
-if, while 문 연습 1
+# if, while 문 연습 1
 i = 1
 total = 0
 
@@ -40,7 +40,7 @@ print()
 print(f"{N}의 약수는 총 {count}개입니다.")
 
 # if, while 문 연습 3
-상수
+# 상수
 INTEREST_RATE = 0.12
 APT_PRICE_2016 = 111100000000
 # 변수
@@ -68,7 +68,7 @@ while i <= 50:
     current = current + temp
     i += 1
 
-if, while 문 연습 5
+# if, while 문 연습 5
 i = 1
 while i <= 9:
     j = 1

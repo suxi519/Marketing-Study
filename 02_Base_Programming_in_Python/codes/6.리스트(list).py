@@ -486,18 +486,23 @@
 import random
 
 with open('vocabulary.txt', 'r', encoding='UTF8') as f:
+    new_list = []
     for line in f:
-        data = line.strip().split(": ")
-        # english, korean = data
-        english = data[0]
-        korean = data[1]
-        random.choice(korean)
+        new_list.append(line)
+        print(new_list)
+
+    while new_list:
+        print(new_list)
+        random_line = random.choice(new_list)
+        new_list.remove(random_line)
+        print(random_line, "\n")
+
+        data = random_line.strip().split(": ")
+        english, korean = data
 
         user_input = input(f'{korean} : ')
-
         if user_input == english:
             print("맞습니다.")
-
         else:
             print(f"아쉽습니다. 정담은 {english} 입니다")
 
