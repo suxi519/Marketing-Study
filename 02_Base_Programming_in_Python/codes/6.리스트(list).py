@@ -487,6 +487,7 @@
 import random
 # 한글을 읽는 UTF8이라는 인코딩방식으로 vocabulary 라는 텍스트 파일을 읽는데, 이 파일의 변수명을 f로 정의했다.
 with open('vocabulary.txt', 'r', encoding='UTF8') as f:
+    print(type(f))
     # new_list 라는 이름의 빈 리스트를 초기화했다.
     new_list = []
     # f라는 파일의 각 line(줄)을 순서대로 불러들인다.
